@@ -5,67 +5,10 @@
 
 using namespace std;
 
+ofstream outFile; //output file
 
 /*RECENT PROGRESS: 
-
-I've set it up so output for MakeSignals() is redirected to the file output.brd (if you want to change 
-it back, just comment out the line cout.rdbuf(outFile.rdbuf()); at the beginning of MakeSignals())
-
-I'm using a new system of globals for the origin coordinates of each pad. This way placing pad A only 
-involves looking at and modifying x_origin_A and y_origin_A, without affecting the origin coordinates 
-for other pads. This makes incrementing the position of pads easier, and debugging much easier. 
-
-I adjusted the parameters given to the MakePad functions in the loop so the naming convention for pads 
-goes like B0, A0, B1, A1, etc. (the D pads aren't labelled in the schematic so I left these as they were; 
-note I'm also using their i values in MakePadD to determine the appropriate y_origin_D, since it alternates)
-
-The origin vertices are missing or incorrect for pads A and B (they seem to have one vertex with the correct 
-x_origin and another with the correct y_origin, but no vertex with the proper x_origin and y_origin). 
-
-~Benito
-*/
-
-
-/*
-MORE Progress:
-
-Finished out the C and D pads including all the vias, front rectangle, and back stripe.
-
-*  Worked briefly with the polygon width parameter and discovered how it works (bad news)
---The polygon is drawn with a "wide marker".
---The wide marker creates rounded outside corners and square inside corners.
---The coordinates of the vertices are the MARKER CENTER.
-Since we REQUIRE that the outside corners be rounded (and that the thermals are drawn nicely) we absolutely must 
-use a finite width marker.  However, we must now adjust the marker's path by 1/2 its width to get the edges where 
-we want.
-*/
-
-/*
-MORE progress:
-
-*  design starting to look really really good.  However, it will benefity the detector ifwe add a redundant chain.  
-Here is why in the long run:
-1 CHAIN:
---If a resistor shorts, the field is a little distorted, but the detector still works.
---If a resistor opens the detector is dead until removal from the collision hall and repair.
-
-2 CHAINS:
---If a resistor shorts, the field distortion is 1/2 as bad as with one chain.
---If a resistor opens, the detector continues to function but with a slightly distorted field.
-
-This is TOO IMPORTANT TO SKIP!!  After thinking about it, I figured out that having one chain at each end of the 
-circuit card is harder to program and looks electrically identical to having both chains at the same end.  For 
-this reason, we will be creating a SECOND COPY of the chain displaced vertically downward and thereby create the 
-reduncancy we desire.
-
-2017-04-24 Vlad: 
-There's a difference between setting the thermals to 0 and actively turning them off. On at 0 still gives a tiny 
-thermal so I added a "thermals = \"no\"" to every polygon on the top (layer 1).
-*/
-
-ofstream outFile; //output file 
-
-//double x_origin = x0_brd; 
+//double x_origin = x0_brd;
 //double y_origin = y0_brd;
 
 //using these instead of a general x_origin and y_origin will be easier and less error-prone
@@ -124,13 +67,13 @@ void MakePlain() {
    */
 
   cout << "<plain>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) 
+  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X)
                                                            << "\" y2=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) 
+  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X)
                                                            << "\" y2=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) 
+  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X )
                                                            << "\" y2=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) 
+  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X )
                                                            << "\" y2=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
 
   double x1 = BOARD_LEFT_X;
@@ -138,7 +81,7 @@ void MakePlain() {
   double y1 = BOARD_BOT_Y;
   double y2 = dx_gap + dy_space;
   cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-  
+
   y1 = y2 + dy_inside + dy_footprint + dy_gap;
   y2 = y1 + dy_sep;
   cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
@@ -168,35 +111,35 @@ void MakeElements()
   y[3] = y_origin_D - dy_pad - 0.5*dy_footgap;
 
   cout << "<elements>" << endl;
-  for(int count = 0; count < TPC_Nresistors; count++) 
+  for(int count = 0; count < TPC_Nresistors; count++)
     {
       double x = x_origin_C + 0.5*dx_footprint + (count/2)*dx_brd;
 
-      cout << "<element name=\"R" << count+1 << "\" library=\"resistor\" package=\"M1206\" value=\"4M\" x=\"" 
+      cout << "<element name=\"R" << count+1 << "\" library=\"resistor\" package=\"M1206\" value=\"4M\" x=\""
 	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] ) << "\" rot=\"R90\">" << endl;
-      cout << "<attribute name=\"MF\" value=\"\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] ) 
+      cout << "<attribute name=\"MF\" value=\"\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
-      cout << "<attribute name=\"MPN\" value=\"HVC1206-4M0JT3\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] ) 
+      cout << "<attribute name=\"MPN\" value=\"HVC1206-4M0JT3\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
-      cout << "<attribute name=\"OC_NEWARK\" value=\"66X4681\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] ) 
+      cout << "<attribute name=\"OC_NEWARK\" value=\"66X4681\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4] )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
       cout << "</element>" << endl;
 
-      cout << "<element name=\"R" << count+2001 << "\" library=\"resistor\" package=\"M1206\" value=\"4M\" x=\"" 
+      cout << "<element name=\"R" << count+2001 << "\" library=\"resistor\" package=\"M1206\" value=\"4M\" x=\""
 	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta ) << "\" rot=\"R90\">" << endl;
-      cout << "<attribute name=\"MF\" value=\"\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta ) 
+      cout << "<attribute name=\"MF\" value=\"\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
-      cout << "<attribute name=\"MPN\" value=\"HVC1206-4M0JT3\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta ) 
+      cout << "<attribute name=\"MPN\" value=\"HVC1206-4M0JT3\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
-      cout << "<attribute name=\"OC_NEWARK\" value=\"66X4681\" x=\"" 
-	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta ) 
+      cout << "<attribute name=\"OC_NEWARK\" value=\"66X4681\" x=\""
+	   << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y[count%4]-dy_delta )
 	   << "\" size=\"1.778\" layer=\"27\" rot=\"R90\" display=\"off\"/>" << endl;
-      cout << "</element>" << endl;    
+      cout << "</element>" << endl;
     }
 
   cout << "</elements>" << endl;
@@ -239,7 +182,7 @@ void MakeSignals()
 
 /*
 For All Polygons:
-To account for the width of the line that draws the polygon outline 
+To account for the width of the line that draws the polygon outline
 we must follow these sets of rules:
 "out" means "outside-corner" &&  "in" means "inside-corner"
 
@@ -253,13 +196,13 @@ void MakePre()
 {
   // x_origin += dx_biggap;
   // Pad D is the pad contianing the vias, only 4 sides
-  
+
   double dx[16] = {0};
   double dy[16] = {0};
   //int curve[16] = {0};
   //curve[16] at [2,3,6,8,9,12]
   int curve[16] = {0,0,1,1,0,0,1,0,1,1,0,0,1,0,0,0};
-  
+
   dx[0] =  (dx_medgap - dx_rgap - PolygonWidth); // oo
   dy[1] = -(dy_pad - PolygonWidth);              // oo
   dx[2] =  -dx[0];                               // oo
@@ -283,7 +226,7 @@ void MakePre()
 
   //  Make front Polygon #2
   x = x_origin_VCC + 0.5*PolygonWidth;
-  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;  
+  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<4; j++)
@@ -357,7 +300,7 @@ void MakePrePads()
 {
   //x_origin += dx_biggap;
   // Pad D is the pad contianing the vias, only 4 sides
-  
+
   double dx[16] = {0};
   double dy[16] = {0};
 
@@ -385,7 +328,7 @@ void MakePrePads()
   //  Make front Polygon #2
   cout << "<signal name=\"TED\">" << endl;
   x = x_origin_VCC + 0.5*PolygonWidth;
-  y = y_origin_D + dy_footgap + dy_footprint - (dy_delta) - 0.5*PolygonWidth;  
+  y = y_origin_D + dy_footgap + dy_footprint - (dy_delta) - 0.5*PolygonWidth;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<4; j++)
@@ -402,7 +345,7 @@ void MakePrePads()
 void MakeVCC()
 {
   //set up first y-origin for first D pad
-  
+
   double dx[24] = {0};
   double dy[24] = {0};
   //int curve[24] = {0};
@@ -433,7 +376,7 @@ void MakeVCC()
   dx[14]=    -(dx_wid - PolygonWidth);                                                 // oo
   dy[15]=     (dy_excess + dy_gap + dy_footprint - PolygonWidth);                      // oo
   dx[16]=     (dx_medgap);                                              // oi
-  dy[17]=     (dy_inside + PolygonWidth);                                              // ii 
+  dy[17]=     (dy_inside + PolygonWidth);                                              // ii
   dx[18]=    -(dx_medgap);                                              // io
 
   //  Now jump up to the next pattern by reversing "extra delta"
@@ -447,7 +390,7 @@ void MakeVCC()
 
   double x = x_origin_VCC + 0.5*PolygonWidth;
   double y = y_origin_VCC - 0.5*PolygonWidth;
-  
+
   cout << "<signal name=\"VCC\">" << endl;
   cout << "<contactref element=\"R1\" pad=\"1\"/>" << endl;
   cout << "<contactref element=\"R2001\" pad=\"1\"/>" << endl;
@@ -473,13 +416,13 @@ void MakeVCC()
     }
   cout << "</polygon>" << endl;
   cout << "</signal>" << endl;
-  
+
 }
 
 void MakePadA(int i)
 {
   // pad A has the top resistor on the right side
-  
+
   double dx[28] = {0};
   double dy[28] = {0};
   //int curve[28] = {0};
@@ -509,10 +452,10 @@ void MakePadA(int i)
   dx[14]=     -(dx_wid - PolygonWidth);                                                 // oo
   dy[15]=      (dy_excess + dy_gap);                                     // oi
   dx[16]= -0.5*(dx_gap+dx_footprint);                                    // io
-  dy[17]=      (dy_footprint - PolygonWidth);                                           // oo 
+  dy[17]=      (dy_footprint - PolygonWidth);                                           // oo
   dx[18]=      (dx_long);                                                // oi
   dy[19]=      (dy_inside + PolygonWidth);                                              // ii
-  dx[20]=     -(dx_medgap);                                              // io 
+  dx[20]=     -(dx_medgap);                                              // io
 
   //  Now jump up to the next pattern by reversing "extra delta"
   dy[21]=     (dy_delta - dy_footprint - dy_inside);  // oi
@@ -526,7 +469,7 @@ void MakePadA(int i)
 
   double x = x_origin_A + 0.5*PolygonWidth;
   double y = y_origin_A - 0.5*PolygonWidth;
-  
+
   cout << "<signal name=\"PAD$A" << i << "\">" << endl;
   cout << "<contactref element=\"R" << i*4+4 << "\" pad=\"" << 2<< "\"/>" << endl;
   cout << "<contactref element=\"R" << i*4+5 << "\" pad=\"" << 1<< "\"/>" << endl;
@@ -571,9 +514,9 @@ void MakePadA(int i)
 	{
 	  x += dx[j];
 	  y += dy[j];
-	  cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;     
+	  cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
 	}
-      cout << "</polygon>" << endl;      
+      cout << "</polygon>" << endl;
 
       double viax = x_origin_A+(0.5*dx_wid);
       double viay = y_origin_A - dy_space - 2.0*dy_delta - dy_gap - 0.5*dy_magicpad;
@@ -583,25 +526,25 @@ void MakePadA(int i)
     }
 
   cout << "</signal>" << endl;
-  
+
   x_origin_A += 2*dx_brd;
 }
 
 
 void MakePadB(int i)
 {
-  
+
   //  x_origin += dx_brd-dx_biggap;
   //  y_origin = y0_brd;
-  
+
   // pad B has the top resistor on the left side
-  
+
   double dx[28] = {0};
   double dy[28] = {0};
   //int curve[28] = {0};
   //curve at [1,4,5,7,10,11,15,18,19,21,24,25]
   int curve[28] = {0,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,1,1,0,1,0,0,1,1};
-  
+
   //  Here is the original code for the first resistor pair...
   dx[0]=     (dx_wid - PolygonWidth);                                                  // oo
   dy[1]=    -(dy_space + dy_inside + dy_footprint + dy_gap + dy_sep + dy_gap);  // oi
@@ -610,7 +553,7 @@ void MakePadB(int i)
   dx[4]=    -(dx_long);                                                         // oi
   dy[5]=    -(dy_inside + PolygonWidth);                                               // ii
   dx[6]=     (dx_medgap);                                                       // io
-  
+
   //  Now we must jump the gap to get to the second resistor pair...
   dy[7]=    -(dy_delta - dy_footprint - dy_inside);  //oi
 
@@ -639,17 +582,17 @@ void MakePadB(int i)
   dy[25]=    dy[19];  // ii
   dx[26]=    dx[20];  // io
   dy[27]=   (dy_space - PolygonWidth);   // oo
-  
+
   double x = x_origin_B + 0.5*PolygonWidth;
   double y = y_origin_B - 0.5*PolygonWidth;
-  
+
   cout << "<signal name=\"PAD$B" << i << "\">" << endl;
   cout << "<contactref element=\"R" << i*4+2 << "\" pad=\"" << 2<< "\"/>" << endl;
   cout << "<contactref element=\"R" << i*4+3 << "\" pad=\"" << 1<< "\"/>" << endl;
   cout << "<contactref element=\"R" << i*4+2+2000 << "\" pad=\"" << 2<< "\"/>" << endl;
   cout << "<contactref element=\"R" << i*4+3+2000 << "\" pad=\"" << 1<< "\"/>" << endl;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
-  
+
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<28; j++)
     {
@@ -670,9 +613,9 @@ void MakePadB(int i)
     }
   cout << "</polygon>" << endl;
   cout << "</signal>" << endl;
-  
+
   //y_origin -= dy_long+dy_footgap;//setting up the y cord for the next dpad
-  
+
   x_origin_B += 2*dx_brd;
 }
 
@@ -681,29 +624,29 @@ void MakePadC(int i)
 {
   if(i != 37)
     {
-      //x_origin=999; need origin for back pad 
+      //x_origin=999; need origin for back pad
       //y_origin is needed for padC so it doesnt mess up the origin of dpad
-      
+
       double dx[28] = {0};
       double dy[28] = {0};
       //int curve[28] = {0};
       //curve at[1,4,5,7,10,11,16,17,20,22,23,26]
       int curve[28] = {0,1,0,0,1,1,0,1,0,0,1,1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,1};
-      
+
       dx[0]=  (dx_footprint - PolygonWidth); // oo
       dy[1]= -(dy_pad - PolygonWidth);       // oo
       dx[2]= -(dx_footprint - PolygonWidth); // oo
       dy[3]=  (dy_pad - PolygonWidth);       // oo
-      
+
       double x = x_origin_C + 0.5*PolygonWidth;
       double y = y_origin_C - 0.5*PolygonWidth;
-      
+
       cout << "<signal name=\"PAD$C" << i << "\">" << endl;
       cout << "<contactref element=\"R" << i*4+1 << "\" pad=\"" << 2 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+2 << "\" pad=\"" << 1 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+1+2000 << "\" pad=\"" << 2 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+2+2000 << "\" pad=\"" << 1 << "\"/>" << endl;
-      
+
       //  Make the front polygon #1
       cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
       cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
@@ -714,7 +657,7 @@ void MakePadC(int i)
 	  cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
 	}
       cout << "</polygon>" << endl;
-      
+
       //  Make Front Polygon #2
       x = x_origin_C + 0.5*PolygonWidth;
       y = y_origin_C - (dy_delta) - 0.5*PolygonWidth;
@@ -727,8 +670,8 @@ void MakePadC(int i)
 	  cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
 	}
       cout << "</polygon>" << endl;
-      
-      // Make the back polygon     
+
+      // Make the back polygon
       dx[0] =      (dx_backnormal - PolygonWidth);                                  // oo
       dy[1] =     -(dy_space - dy_gap);                                       // oi
       dx[2] =  0.5*(dx_backwide - dx_backnormal);                             // io
@@ -736,7 +679,7 @@ void MakePadC(int i)
       dx[4] = -0.5*(dx_backwide - dx_backnarrow);                             // oi
       dy[5] =     -(dy_sep - dy_gap + dy_inside + dy_footprint + dy_gap + dy_gap + dy_gap + PolygonWidth);  // ii
       dx[6] =  0.5*(dx_backnormal - dx_backnarrow);                           // io
-      
+
       //  Now jump down to the repeated pattern...
       dy[7]  = -dy_delta - dy[3] - dy[5]; // oi
       dx[8]  =  dx[2]; //io
@@ -746,7 +689,7 @@ void MakePadC(int i)
       dx[12] =  dx[6]; //io
       dy[13] = -(dy_excess - 2.0*dy_gap - PolygonWidth);      // oo
       dx[14] = -(dx_backnormal - PolygonWidth);               // oo
-      
+
       dy[15] = -dy[13]; //oo??????????????
       dx[16] =  dx[12]; //
       dy[17] = -dy[11]; //
@@ -760,10 +703,10 @@ void MakePadC(int i)
       dy[25] = -dy[3];  //
       dx[26] =  dx[2];  //
       dy[27] = -dy[1];  //
-      
+
       x = x_origin_C + 0.5*dx_footprint - 0.5*dx_backnormal + 0.5*PolygonWidth;
       y = y_origin_A - 0.5*PolygonWidth;  // = top of back traces aligns with "A" shape.
-      
+
       cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"16\">" << endl;
       cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
       for (int j=0; j<28; j++)
@@ -784,22 +727,22 @@ void MakePadC(int i)
 	    }
 	}
       cout << "</polygon>" << endl;
-      
+
       double viax= x_origin_C+(0.5*dx_footprint);
       double viay= y_origin_C-(dy_pad/2);
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay-1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay+1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
-      
+
       viax= x_origin_C+(0.5*dx_footprint);
       viay= y_origin_C-(dy_pad/2) - (dy_delta);
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay-1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay+1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
-      
+
       cout << "</signal>" << endl;
-      
+
       x_origin_C += 2.0*dx_brd;
     }
-  
+
   else {
       MakePadCPrime(i);
     }
@@ -808,9 +751,9 @@ void MakePadC(int i)
 
 void MakePadCPrime(int i)
 {
-  //x_origin=999; need origin for back pad 
+  //x_origin=999; need origin for back pad
   //y_origin is needed for padC so it doesnt mess up the origin of dpad
-  
+
   double dx[32] = {0};
   double dy[32] = {0};
   //int curve[32] = {0};
@@ -869,7 +812,7 @@ void MakePadCPrime(int i)
   dx[8]  =  dx[2]; // io
   dy[9]  =  dy[3]; // oo
   dx[10] =  dx[4]; // oi
-  dy[11] =  dy[5]; // ii 
+  dy[11] =  dy[5]; // ii
   dx[12] =  dx[6]; // io
 
   //make the odd peice
@@ -881,18 +824,18 @@ void MakePadCPrime(int i)
   dx[18] =  -dx[16];                                         // io
   dy[19] =  (dy_sep - 2.0*dy_gap - PolygonWidth);                 // oo
 
-  dx[20]=  dx[12]; // 
-  dy[21]= -dy[11]; // 
-  dx[22]=  dx[10]; // 
-  dy[23]= -dy[9];  // 
-  dx[24]=  dx[8];  // 
-  dy[25]= -dy[7];  // 
-  dx[26]=  dx[6];  // 
-  dy[27]= -dy[5];  // 
-  dx[28]=  dx[4];  // 
-  dy[29]= -dy[3];  // 
-  dx[30]=  dx[2];  // 
-  dy[31]= -dy[1];  // 
+  dx[20]=  dx[12]; //
+  dy[21]= -dy[11]; //
+  dx[22]=  dx[10]; //
+  dy[23]= -dy[9];  //
+  dx[24]=  dx[8];  //
+  dy[25]= -dy[7];  //
+  dx[26]=  dx[6];  //
+  dy[27]= -dy[5];  //
+  dx[28]=  dx[4];  //
+  dy[29]= -dy[3];  //
+  dx[30]=  dx[2];  //
+  dy[31]= -dy[1];  //
 
   x = x_origin_C + 0.5*dx_footprint - 0.5*dx_backnormal + 0.5*PolygonWidth;
   y = y_origin_A - 0.5*PolygonWidth;  // = top of back traces aligns with "A" shape.
@@ -930,7 +873,7 @@ void MakePadCPrime(int i)
 
   cout << "</signal>" << endl;
 
-  x_origin_C += 2.0*dx_brd;  
+  x_origin_C += 2.0*dx_brd;
 }
 
 
@@ -940,7 +883,7 @@ void MakePadD(int i)
     {
       //_origin += dx_biggap;
       // Pad D is the pad contianing the vias, only 4 sides
-      
+
       double dx[28] = {0};
       double dy[28] = {0};
       //int curve[28] = {0};
@@ -951,16 +894,16 @@ void MakePadD(int i)
       dy[1]= -(dy_pad - PolygonWidth);       // oo
       dx[2]= -(dx_footprint - PolygonWidth); // oo
       dy[3]=  (dy_pad - PolygonWidth);       // oo
-      
+
       double x = x_origin_D + 0.5*PolygonWidth;
       double y = y_origin_D - 0.5*PolygonWidth;
-            
+
       cout << "<signal name=\"PAD$D" << i << "\">" << endl;
       cout << "<contactref element=\"R" << i*4+3 << "\" pad=\"" << 2 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+4 << "\" pad=\"" << 1 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+3+2000 << "\" pad=\"" << 2 << "\"/>" << endl;
       cout << "<contactref element=\"R" << i*4+4+2000 << "\" pad=\"" << 1 << "\"/>" << endl;
-      
+
       //  Make the front polygon #1
       cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
       cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
@@ -971,10 +914,10 @@ void MakePadD(int i)
 	  cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
 	}
       cout << "</polygon>" << endl;
-      
+
       //  Make front Polygon #2
       x = x_origin_D + 0.5*PolygonWidth;
-      y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;  
+      y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;
       cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
       cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
       for (int j=0; j<4; j++)
@@ -993,7 +936,7 @@ void MakePadD(int i)
       dx[4] =  0.5*(dx_backwide - dx_backnarrow);                                      // io
       dy[5] =     -(dy_sep - 2.0*dy_gap + dy_inside + dy_footprint + dy_gap + dy_gap - PolygonWidth); // oo
       dx[6] = -0.5*(dx_backwide - dx_backnormal);                                      // oi
-      
+
       //  Now jump and repeat the preceeding pattern
       dy[7]  = -dy_delta - dy[3] - dy[5]; // io
       dx[8]  =  dx[2];  // oi
@@ -1001,26 +944,26 @@ void MakePadD(int i)
       dx[10] =  dx[4];  // io
       dy[11] =  dy[5];  // oo
       dx[12] =  dx[6];  // oi
-      
+
       dy[13] = -(dy_excess - dy_gap);             // io
       dx[14] = -(dx_backnormal - PolygonWidth);        // oo
-      dy[15] =  -dy[13]; // 
-      dx[16] =   dx[12]; // 
-      dy[17] =  -dy[11]; // 
-      dx[18] =   dx[10]; // 
-      dy[19] =  -dy[9];  // 
-      dx[20] =   dx[8];  // 
-      dy[21] =  -dy[7];  // 
-      dx[22] =   dx[6];  // 
-      dy[23] =  -dy[5];  // 
-      dx[24] =   dx[4];  // 
-      dy[25] =  -dy[3];  // 
-      dx[26] =   dx[2];  // 
-      dy[27] =  -dy[1];  // 
-      
+      dy[15] =  -dy[13]; //
+      dx[16] =   dx[12]; //
+      dy[17] =  -dy[11]; //
+      dx[18] =   dx[10]; //
+      dy[19] =  -dy[9];  //
+      dx[20] =   dx[8];  //
+      dy[21] =  -dy[7];  //
+      dx[22] =   dx[6];  //
+      dy[23] =  -dy[5];  //
+      dx[24] =   dx[4];  //
+      dy[25] =  -dy[3];  //
+      dx[26] =   dx[2];  //
+      dy[27] =  -dy[1];  //
+
       x = x_origin_D + 0.5*dx_footprint - 0.5*dx_backnormal + 0.5*PolygonWidth;
       y = y_origin_A - 0.5*PolygonWidth;  // =top of back traces aligns with "A" shape.
-      
+
       cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"16\">" << endl;
       cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
       for (int j=0; j<28; j++)
@@ -1041,21 +984,21 @@ void MakePadD(int i)
 	    }
 	}
       cout << "</polygon>" << endl;
-      
+
       double viax= x_origin_D+(0.5*dx_footprint);
       double viay= y_origin_D-(dy_pad/2);
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay-1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay+1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
-      
+
       viax= x_origin_D+(0.5*dx_footprint);
       viay= y_origin_D - dy_delta - (dy_pad/2);
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay-1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
       cout << "<via x=\"" << BOARD_RIGHT_X - ( viax ) << "\" y=\"" << BOARD_TOP_Y - ( viay+1 ) << "\" extent=\"1-16\" drill=\"" << DrillSize << "\" shape=\"square\"/>" << endl;
-      
+
       cout << "</signal>" << endl;
-      
+
       x_origin_D += 2.0*dx_brd;
-      
+
     }
   else {
       MakePadDPrime(i);
@@ -1067,7 +1010,7 @@ void MakePadDPrime(int i)
 {
   //x_origin += dx_biggap;
   // Pad D is the pad contianing the vias, only 4 sides
-  
+
   double dx[32] = {0};
   double dy[32] = {0};
   //int curve[32] = {0};
@@ -1102,7 +1045,7 @@ void MakePadDPrime(int i)
 
   //  Make front Polygon #2
   x = x_origin_D + 0.5*PolygonWidth;
-  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;  
+  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<4; j++)
@@ -1140,18 +1083,18 @@ void MakePadDPrime(int i)
 
   dy[19] = (dy_excess - dy_gap);  // oi
 
-  dx[20] =  dx[12]; // 
-  dy[21] = -dy[11]; // 
-  dx[22] =  dx[10]; // 
-  dy[23] = -dy[9];  // 
-  dx[24] =  dx[8];  // 
-  dy[25] = -dy[7];  // 
-  dx[26] =  dx[6];  // 
-  dy[27] = -dy[5];  // 
-  dx[28] =  dx[4];  // 
-  dy[29] = -dy[3];  // 
-  dx[30] =  dx[2];  // 
-  dy[31] = -dy[1];  // 
+  dx[20] =  dx[12]; //
+  dy[21] = -dy[11]; //
+  dx[22] =  dx[10]; //
+  dy[23] = -dy[9];  //
+  dx[24] =  dx[8];  //
+  dy[25] = -dy[7];  //
+  dx[26] =  dx[6];  //
+  dy[27] = -dy[5];  //
+  dx[28] =  dx[4];  //
+  dy[29] = -dy[3];  //
+  dx[30] =  dx[2];  //
+  dy[31] = -dy[1];  //
 
   x = x_origin_D + 0.5*dx_footprint - 0.5*dx_backnormal + 0.5*PolygonWidth;
   y = y_origin_A - 0.5*PolygonWidth;  //  =top of back traces aligns with "A" shape.
@@ -1189,7 +1132,7 @@ void MakePadDPrime(int i)
 
   cout << "</signal>" << endl;
 
-  x_origin_D += 2.0*dx_brd;  
+  x_origin_D += 2.0*dx_brd;
 }
 
 
@@ -1197,9 +1140,9 @@ void MakeGND()
 {
   //  x_origin += dx_brd-dx_biggap;
   //  y_origin = y0_brd;
-  
+
   // pad B has the top resistor on the left side
-  
+
   double dx[24] = {0};
   double dy[24] = {0};
   int curve[24] = {0};
@@ -1214,16 +1157,16 @@ void MakeGND()
   curve[20] = 1;
   curve[21] = 1;
 
-  
+
   dx[0] =  (dx_wid - PolygonWidth);                                                                         // oo
-  dy[1] = -(dy_space + dy_inside + dy_footprint + dy_gap + dy_sep + dy_gap + dy_footprint - PolygonWidth);  // oo                      
-  dx[2] = -(dx_medgap);                                 // oi                      
+  dy[1] = -(dy_space + dy_inside + dy_footprint + dy_gap + dy_sep + dy_gap + dy_footprint - PolygonWidth);  // oo
+  dx[2] = -(dx_medgap);                                 // oi
   dy[3] = -(dy_inside + PolygonWidth);                                                                      // ii
   dx[4] =  (dx_medgap);                                 // io
 
   //  Now make the jump...
   dy[5] = -(dy_delta - dy_inside - PolygonWidth); //oo
-  dx[6] =   dx[2]; // 
+  dx[6] =   dx[2]; //
   dy[7] =   dy[3];
   dx[8] =   dx[4];
   dy[9] = -(dy_excess - PolygonWidth);  // oo
@@ -1245,16 +1188,16 @@ void MakeGND()
   dx[22] =  dx[16];
 
   dy[23] = (dy_space - PolygonWidth);     // oo
-  
+
   double x = x_origin_B + 0.5*PolygonWidth;
   double y = y_origin_B - 0.5*PolygonWidth;
-  
+
   cout << "<signal name=\"GND\">" << endl;
   cout << "<contactref element=\"R"<< TPC_Nresistors << "\" pad=\"" << 2<< "\"/>" << endl;
   int bignum = 2000+TPC_Nresistors;
   cout << "<contactref element=\"R"<< bignum << "\" pad=\"" << 2<< "\"/>" << endl;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
-  
+
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<24; j++)
     {
@@ -1275,9 +1218,9 @@ void MakeGND()
     }
   cout << "</polygon>" << endl;
   cout << "</signal>" << endl;
-  
+
   //y_origin -= dy_long+dy_footgap;//setting up the y cord for the next dpad
-  
+
  x_origin_B += 2*dx_brd;
 }
 
@@ -1286,11 +1229,11 @@ void MakePost()
 {
   //x_origin += dx_biggap;
   //Pad D is the pad contianing the vias, only 4 sides
-  
+
   double dx[16] = {0};
   double dy[16] = {0};
   int curve[16] = {0};
-  curve[2]=1;  
+  curve[2]=1;
   curve[3]=1;
   curve[6]=1;
   curve[8]=1;
@@ -1321,7 +1264,7 @@ void MakePost()
 
   //  Make front Polygon #2
   x = x_origin_D + 0.5*PolygonWidth;
-  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;  
+  y = y_origin_D - (dy_delta) - 0.5*PolygonWidth;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<4; j++)
@@ -1343,11 +1286,11 @@ void MakePost()
 
   //  Now jump and repeat the preceeding pattern
   dy[7]  =  -dy_delta - dy[3] - dy[5]; // io
-  dx[8]  =   dx[2]; // 
-  dy[9]  =   dy[3]; // 
-  dx[10] =   dx[4]; // 
-  dy[11] =   dy[5]; // 
-  dx[12] =   dx[6]; // 
+  dx[8]  =   dx[2]; //
+  dy[9]  =   dy[3]; //
+  dx[10] =   dx[4]; //
+  dy[11] =   dy[5]; //
+  dx[12] =   dx[6]; //
   dy[13] = -(dy_excess - dy_gap);      // io
 
   dx[14] =  -dx[0];                    // oo
@@ -1395,10 +1338,10 @@ void MakePostPads()
 {
   //x_origin += dx_biggap;
   //Pad D is the pad contianing the vias, only 4 sides
-  
+
   double dx[16] = {0};
   double dy[16] = {0};
-  
+
 
   dx[0]=  (0.5*dx_footprint - 0.5*dx_gap - PolygonWidth); // oo
   dy[1]= -(dy_footprint - PolygonWidth);       // oo
@@ -1425,7 +1368,7 @@ void MakePostPads()
   //  Make front Polygon #2
   cout << "<signal name=\"WESSON\">" << endl;
   x = x_origin_D + 0.5*PolygonWidth;
-  y = y_origin_D - dy_pad - dy_footgap - (dy_delta) - 0.5*PolygonWidth;  
+  y = y_origin_D - dy_pad - dy_footgap - (dy_delta) - 0.5*PolygonWidth;
   cout << "<polygon width=\"" << PolygonWidth << "\" layer=\"1\" >" << endl;
   cout << "<vertex x=\"" << BOARD_RIGHT_X - ( x ) << "\" y=\"" << BOARD_TOP_Y - ( y ) << "\"/>" << endl;
   for (int j=0; j<4; j++)
@@ -1482,7 +1425,7 @@ void MakeCutouts()
   PBdy[3] = 0.5*dy_footgap + dy_footprint + 0.5*THERMAL_WIDTH;
 
 
-  for(int count = 0; count < TPC_Nresistors; count++) 
+  for(int count = 0; count < TPC_Nresistors; count++)
     {
       double xRes = x_origin_VCC + dx_CEE + 0.5*dx_footprint + (count/2)*dx_brd;
       double yRes = y[count%4];
@@ -1502,7 +1445,7 @@ void MakeCutouts()
 	      OutputOneCutout( xRes+PAdx[i] , yRes+PAdy[i]-dy_delta ); // R2000+n
 	    }
 	}
-    } 
+    }
 
 }
 
@@ -1563,7 +1506,7 @@ void OutputOneCutout(double xCenter, double yCenter)
 
 
 /*
-  Sample of output for stripes  
+  Sample of output for stripes
   <vertex x="13.97" y="63.5"/>
   <vertex x="33.02" y="63.5"/>
   <vertex x="34.29" y="63.5"/>
