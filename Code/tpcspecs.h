@@ -80,4 +80,17 @@
 #define x0_brd (BOARD_LEFT_X + dx_gap)
 #define y0_brd (BOARD_TOP_Y - dx_gap)
 
+
+/*
+-
+-     For the Cover Layer
+-
+ */
+
+#define dx_coverTop 1.15 //wrong value
+#define dx_coverShortWidth 0.575
+#define dy_coverShort 10 //get value from Hemmick
+#define dy_coverLong 30
+
+
 #endif /*__TPCSPECS_H__*/

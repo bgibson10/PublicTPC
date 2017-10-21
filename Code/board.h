@@ -1,28 +1,32 @@
 #ifndef __BOARD_H__
 #define __BOARD_H__
 
-void FullBoard();
+//void FullBoard();
 void InsertFile(const char *);
-void MakeElements();
-void MakeSignals();
+//void MakeElements();
+//void MakeSignals();
 
 void MakePlain();
-void MakePre();
-void MakePrePads();
-void MakeVCC();
-void MakePadA(int i);
-void MakePadB(int i);
-void MakePadC(int i);
-void MakePadD(int i);
-void MakePadCPrime(int i);
-void MakePadDPrime(int i);
-void MakeGND();
-void MakePost();
-void MakePostPads();
-void MakeCutouts();
-void OutputOneCutout(double xCenter, double yCenter);
+//void MakePre();
+//void MakePrePads();
+//void MakeVCC();
+//void MakePadA(int i);
+//void MakePadB(int i);
+//void MakePadC(int i);
+//void MakePadD(int i);
+//void MakePadCPrime(int i);
+//void MakePadDPrime(int i);
+//void MakeGND();
+//void MakePost();
+//void MakePostPads();
+//void MakeCutouts();
+//void OutputOneCutout(double xCenter, double yCenter);
 
-double Sign(double );
+void FullCover();
+void MakeCoverStripes(int i);
+void MakeCoverSignals();
+
+//double Sign(double);
 
 #endif /*__BOARD_H__*/
 
