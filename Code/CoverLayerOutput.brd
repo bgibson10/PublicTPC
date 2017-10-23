@@ -1387,6 +1387,7 @@ design rules under a new name.</description>
 <vertex x="411.9" y="10.7"/>
 <vertex x="411.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A1">
 <polygon width="0.4" layer="1" >
 <vertex x="9.1" y="1358.82"/>
@@ -1407,6 +1408,7 @@ design rules under a new name.</description>
 <vertex x="409.1" y="10.7"/>
 <vertex x="409.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A2">
 <polygon width="0.4" layer="1" >
 <vertex x="11.9" y="1358.82"/>
@@ -1427,6 +1429,7 @@ design rules under a new name.</description>
 <vertex x="406.3" y="10.7"/>
 <vertex x="406.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A3">
 <polygon width="0.4" layer="1" >
 <vertex x="14.7" y="1358.82"/>
@@ -1447,6 +1450,7 @@ design rules under a new name.</description>
 <vertex x="403.5" y="10.7"/>
 <vertex x="403.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A4">
 <polygon width="0.4" layer="1" >
 <vertex x="17.5" y="1358.82"/>
@@ -1467,6 +1471,7 @@ design rules under a new name.</description>
 <vertex x="400.7" y="10.7"/>
 <vertex x="400.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A5">
 <polygon width="0.4" layer="1" >
 <vertex x="20.3" y="1358.82"/>
@@ -1487,6 +1492,7 @@ design rules under a new name.</description>
 <vertex x="397.9" y="10.7"/>
 <vertex x="397.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A6">
 <polygon width="0.4" layer="1" >
 <vertex x="23.1" y="1358.82"/>
@@ -1507,6 +1513,7 @@ design rules under a new name.</description>
 <vertex x="395.1" y="10.7"/>
 <vertex x="395.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A7">
 <polygon width="0.4" layer="1" >
 <vertex x="25.9" y="1358.82"/>
@@ -1527,6 +1534,7 @@ design rules under a new name.</description>
 <vertex x="392.3" y="10.7"/>
 <vertex x="392.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A8">
 <polygon width="0.4" layer="1" >
 <vertex x="28.7" y="1358.82"/>
@@ -1547,6 +1555,7 @@ design rules under a new name.</description>
 <vertex x="389.5" y="10.7"/>
 <vertex x="389.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A9">
 <polygon width="0.4" layer="1" >
 <vertex x="31.5" y="1358.82"/>
@@ -1567,6 +1576,7 @@ design rules under a new name.</description>
 <vertex x="386.7" y="10.7"/>
 <vertex x="386.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A10">
 <polygon width="0.4" layer="1" >
 <vertex x="34.3" y="1358.82"/>
@@ -1587,6 +1597,7 @@ design rules under a new name.</description>
 <vertex x="383.9" y="10.7"/>
 <vertex x="383.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A11">
 <polygon width="0.4" layer="1" >
 <vertex x="37.1" y="1358.82"/>
@@ -1607,6 +1618,7 @@ design rules under a new name.</description>
 <vertex x="381.1" y="10.7"/>
 <vertex x="381.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A12">
 <polygon width="0.4" layer="1" >
 <vertex x="39.9" y="1358.82"/>
@@ -1627,6 +1639,7 @@ design rules under a new name.</description>
 <vertex x="378.3" y="10.7"/>
 <vertex x="378.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A13">
 <polygon width="0.4" layer="1" >
 <vertex x="42.7" y="1358.82"/>
@@ -1647,6 +1660,7 @@ design rules under a new name.</description>
 <vertex x="375.5" y="10.7"/>
 <vertex x="375.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A14">
 <polygon width="0.4" layer="1" >
 <vertex x="45.5" y="1358.82"/>
@@ -1667,6 +1681,7 @@ design rules under a new name.</description>
 <vertex x="372.7" y="10.7"/>
 <vertex x="372.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A15">
 <polygon width="0.4" layer="1" >
 <vertex x="48.3" y="1358.82"/>
@@ -1687,6 +1702,7 @@ design rules under a new name.</description>
 <vertex x="369.9" y="10.7"/>
 <vertex x="369.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A16">
 <polygon width="0.4" layer="1" >
 <vertex x="51.1" y="1358.82"/>
@@ -1707,6 +1723,7 @@ design rules under a new name.</description>
 <vertex x="367.1" y="10.7"/>
 <vertex x="367.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A17">
 <polygon width="0.4" layer="1" >
 <vertex x="53.9" y="1358.82"/>
@@ -1727,6 +1744,7 @@ design rules under a new name.</description>
 <vertex x="364.3" y="10.7"/>
 <vertex x="364.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A18">
 <polygon width="0.4" layer="1" >
 <vertex x="56.7" y="1358.82"/>
@@ -1747,6 +1765,7 @@ design rules under a new name.</description>
 <vertex x="361.5" y="10.7"/>
 <vertex x="361.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A19">
 <polygon width="0.4" layer="1" >
 <vertex x="59.5" y="1358.82"/>
@@ -1767,6 +1786,7 @@ design rules under a new name.</description>
 <vertex x="358.7" y="10.7"/>
 <vertex x="358.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A20">
 <polygon width="0.4" layer="1" >
 <vertex x="62.3" y="1358.82"/>
@@ -1787,6 +1807,7 @@ design rules under a new name.</description>
 <vertex x="355.9" y="10.7"/>
 <vertex x="355.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A21">
 <polygon width="0.4" layer="1" >
 <vertex x="65.1" y="1358.82"/>
@@ -1807,6 +1828,7 @@ design rules under a new name.</description>
 <vertex x="353.1" y="10.7"/>
 <vertex x="353.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A22">
 <polygon width="0.4" layer="1" >
 <vertex x="67.9" y="1358.82"/>
@@ -1827,6 +1849,7 @@ design rules under a new name.</description>
 <vertex x="350.3" y="10.7"/>
 <vertex x="350.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A23">
 <polygon width="0.4" layer="1" >
 <vertex x="70.7" y="1358.82"/>
@@ -1847,6 +1870,7 @@ design rules under a new name.</description>
 <vertex x="347.5" y="10.7"/>
 <vertex x="347.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A24">
 <polygon width="0.4" layer="1" >
 <vertex x="73.5" y="1358.82"/>
@@ -1867,6 +1891,7 @@ design rules under a new name.</description>
 <vertex x="344.7" y="10.7"/>
 <vertex x="344.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A25">
 <polygon width="0.4" layer="1" >
 <vertex x="76.3" y="1358.82"/>
@@ -1887,6 +1912,7 @@ design rules under a new name.</description>
 <vertex x="341.9" y="10.7"/>
 <vertex x="341.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A26">
 <polygon width="0.4" layer="1" >
 <vertex x="79.1" y="1358.82"/>
@@ -1907,6 +1933,7 @@ design rules under a new name.</description>
 <vertex x="339.1" y="10.7"/>
 <vertex x="339.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A27">
 <polygon width="0.4" layer="1" >
 <vertex x="81.9" y="1358.82"/>
@@ -1927,6 +1954,7 @@ design rules under a new name.</description>
 <vertex x="336.3" y="10.7"/>
 <vertex x="336.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A28">
 <polygon width="0.4" layer="1" >
 <vertex x="84.7" y="1358.82"/>
@@ -1947,6 +1975,7 @@ design rules under a new name.</description>
 <vertex x="333.5" y="10.7"/>
 <vertex x="333.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A29">
 <polygon width="0.4" layer="1" >
 <vertex x="87.5" y="1358.82"/>
@@ -1967,6 +1996,7 @@ design rules under a new name.</description>
 <vertex x="330.7" y="10.7"/>
 <vertex x="330.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A30">
 <polygon width="0.4" layer="1" >
 <vertex x="90.3" y="1358.82"/>
@@ -1987,6 +2017,7 @@ design rules under a new name.</description>
 <vertex x="327.9" y="10.7"/>
 <vertex x="327.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A31">
 <polygon width="0.4" layer="1" >
 <vertex x="93.1" y="1358.82"/>
@@ -2007,6 +2038,7 @@ design rules under a new name.</description>
 <vertex x="325.1" y="10.7"/>
 <vertex x="325.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A32">
 <polygon width="0.4" layer="1" >
 <vertex x="95.9" y="1358.82"/>
@@ -2027,6 +2059,7 @@ design rules under a new name.</description>
 <vertex x="322.3" y="10.7"/>
 <vertex x="322.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A33">
 <polygon width="0.4" layer="1" >
 <vertex x="98.7" y="1358.82"/>
@@ -2047,6 +2080,7 @@ design rules under a new name.</description>
 <vertex x="319.5" y="10.7"/>
 <vertex x="319.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A34">
 <polygon width="0.4" layer="1" >
 <vertex x="101.5" y="1358.82"/>
@@ -2067,6 +2101,7 @@ design rules under a new name.</description>
 <vertex x="316.7" y="10.7"/>
 <vertex x="316.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A35">
 <polygon width="0.4" layer="1" >
 <vertex x="104.3" y="1358.82"/>
@@ -2087,6 +2122,7 @@ design rules under a new name.</description>
 <vertex x="313.9" y="10.7"/>
 <vertex x="313.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A36">
 <polygon width="0.4" layer="1" >
 <vertex x="107.1" y="1358.82"/>
@@ -2107,6 +2143,7 @@ design rules under a new name.</description>
 <vertex x="311.1" y="10.7"/>
 <vertex x="311.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A37">
 <polygon width="0.4" layer="1" >
 <vertex x="109.9" y="1358.82"/>
@@ -2127,6 +2164,7 @@ design rules under a new name.</description>
 <vertex x="308.3" y="10.7"/>
 <vertex x="308.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A38">
 <polygon width="0.4" layer="1" >
 <vertex x="112.7" y="1358.82"/>
@@ -2147,6 +2185,7 @@ design rules under a new name.</description>
 <vertex x="305.5" y="10.7"/>
 <vertex x="305.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A39">
 <polygon width="0.4" layer="1" >
 <vertex x="115.5" y="1358.82"/>
@@ -2167,6 +2206,7 @@ design rules under a new name.</description>
 <vertex x="302.7" y="10.7"/>
 <vertex x="302.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A40">
 <polygon width="0.4" layer="1" >
 <vertex x="118.3" y="1358.82"/>
@@ -2187,6 +2227,7 @@ design rules under a new name.</description>
 <vertex x="299.9" y="10.7"/>
 <vertex x="299.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A41">
 <polygon width="0.4" layer="1" >
 <vertex x="121.1" y="1358.82"/>
@@ -2207,6 +2248,7 @@ design rules under a new name.</description>
 <vertex x="297.1" y="10.7"/>
 <vertex x="297.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A42">
 <polygon width="0.4" layer="1" >
 <vertex x="123.9" y="1358.82"/>
@@ -2227,6 +2269,7 @@ design rules under a new name.</description>
 <vertex x="294.3" y="10.7"/>
 <vertex x="294.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A43">
 <polygon width="0.4" layer="1" >
 <vertex x="126.7" y="1358.82"/>
@@ -2247,6 +2290,7 @@ design rules under a new name.</description>
 <vertex x="291.5" y="10.7"/>
 <vertex x="291.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A44">
 <polygon width="0.4" layer="1" >
 <vertex x="129.5" y="1358.82"/>
@@ -2267,6 +2311,7 @@ design rules under a new name.</description>
 <vertex x="288.7" y="10.7"/>
 <vertex x="288.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A45">
 <polygon width="0.4" layer="1" >
 <vertex x="132.3" y="1358.82"/>
@@ -2287,6 +2332,7 @@ design rules under a new name.</description>
 <vertex x="285.9" y="10.7"/>
 <vertex x="285.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A46">
 <polygon width="0.4" layer="1" >
 <vertex x="135.1" y="1358.82"/>
@@ -2307,6 +2353,7 @@ design rules under a new name.</description>
 <vertex x="283.1" y="10.7"/>
 <vertex x="283.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A47">
 <polygon width="0.4" layer="1" >
 <vertex x="137.9" y="1358.82"/>
@@ -2327,6 +2374,7 @@ design rules under a new name.</description>
 <vertex x="280.3" y="10.7"/>
 <vertex x="280.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A48">
 <polygon width="0.4" layer="1" >
 <vertex x="140.7" y="1358.82"/>
@@ -2347,6 +2395,7 @@ design rules under a new name.</description>
 <vertex x="277.5" y="10.7"/>
 <vertex x="277.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A49">
 <polygon width="0.4" layer="1" >
 <vertex x="143.5" y="1358.82"/>
@@ -2367,6 +2416,7 @@ design rules under a new name.</description>
 <vertex x="274.7" y="10.7"/>
 <vertex x="274.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A50">
 <polygon width="0.4" layer="1" >
 <vertex x="146.3" y="1358.82"/>
@@ -2387,6 +2437,7 @@ design rules under a new name.</description>
 <vertex x="271.9" y="10.7"/>
 <vertex x="271.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A51">
 <polygon width="0.4" layer="1" >
 <vertex x="149.1" y="1358.82"/>
@@ -2407,6 +2458,7 @@ design rules under a new name.</description>
 <vertex x="269.1" y="10.7"/>
 <vertex x="269.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A52">
 <polygon width="0.4" layer="1" >
 <vertex x="151.9" y="1358.82"/>
@@ -2427,6 +2479,7 @@ design rules under a new name.</description>
 <vertex x="266.3" y="10.7"/>
 <vertex x="266.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A53">
 <polygon width="0.4" layer="1" >
 <vertex x="154.7" y="1358.82"/>
@@ -2447,6 +2500,7 @@ design rules under a new name.</description>
 <vertex x="263.5" y="10.7"/>
 <vertex x="263.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A54">
 <polygon width="0.4" layer="1" >
 <vertex x="157.5" y="1358.82"/>
@@ -2467,6 +2521,7 @@ design rules under a new name.</description>
 <vertex x="260.7" y="10.7"/>
 <vertex x="260.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A55">
 <polygon width="0.4" layer="1" >
 <vertex x="160.3" y="1358.82"/>
@@ -2487,6 +2542,7 @@ design rules under a new name.</description>
 <vertex x="257.9" y="10.7"/>
 <vertex x="257.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A56">
 <polygon width="0.4" layer="1" >
 <vertex x="163.1" y="1358.82"/>
@@ -2507,6 +2563,7 @@ design rules under a new name.</description>
 <vertex x="255.1" y="10.7"/>
 <vertex x="255.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A57">
 <polygon width="0.4" layer="1" >
 <vertex x="165.9" y="1358.82"/>
@@ -2527,6 +2584,7 @@ design rules under a new name.</description>
 <vertex x="252.3" y="10.7"/>
 <vertex x="252.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A58">
 <polygon width="0.4" layer="1" >
 <vertex x="168.7" y="1358.82"/>
@@ -2547,6 +2605,7 @@ design rules under a new name.</description>
 <vertex x="249.5" y="10.7"/>
 <vertex x="249.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A59">
 <polygon width="0.4" layer="1" >
 <vertex x="171.5" y="1358.82"/>
@@ -2567,6 +2626,7 @@ design rules under a new name.</description>
 <vertex x="246.7" y="10.7"/>
 <vertex x="246.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A60">
 <polygon width="0.4" layer="1" >
 <vertex x="174.3" y="1358.82"/>
@@ -2587,6 +2647,7 @@ design rules under a new name.</description>
 <vertex x="243.9" y="10.7"/>
 <vertex x="243.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A61">
 <polygon width="0.4" layer="1" >
 <vertex x="177.1" y="1358.82"/>
@@ -2607,6 +2668,7 @@ design rules under a new name.</description>
 <vertex x="241.1" y="10.7"/>
 <vertex x="241.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A62">
 <polygon width="0.4" layer="1" >
 <vertex x="179.9" y="1358.82"/>
@@ -2627,6 +2689,7 @@ design rules under a new name.</description>
 <vertex x="238.3" y="10.7"/>
 <vertex x="238.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A63">
 <polygon width="0.4" layer="1" >
 <vertex x="182.7" y="1358.82"/>
@@ -2647,6 +2710,7 @@ design rules under a new name.</description>
 <vertex x="235.5" y="10.7"/>
 <vertex x="235.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A64">
 <polygon width="0.4" layer="1" >
 <vertex x="185.5" y="1358.82"/>
@@ -2667,6 +2731,7 @@ design rules under a new name.</description>
 <vertex x="232.7" y="10.7"/>
 <vertex x="232.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A65">
 <polygon width="0.4" layer="1" >
 <vertex x="188.3" y="1358.82"/>
@@ -2687,6 +2752,7 @@ design rules under a new name.</description>
 <vertex x="229.9" y="10.7"/>
 <vertex x="229.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A66">
 <polygon width="0.4" layer="1" >
 <vertex x="191.1" y="1358.82"/>
@@ -2707,6 +2773,7 @@ design rules under a new name.</description>
 <vertex x="227.1" y="10.7"/>
 <vertex x="227.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A67">
 <polygon width="0.4" layer="1" >
 <vertex x="193.9" y="1358.82"/>
@@ -2727,6 +2794,7 @@ design rules under a new name.</description>
 <vertex x="224.3" y="10.7"/>
 <vertex x="224.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A68">
 <polygon width="0.4" layer="1" >
 <vertex x="196.7" y="1358.82"/>
@@ -2747,6 +2815,7 @@ design rules under a new name.</description>
 <vertex x="221.5" y="10.7"/>
 <vertex x="221.5" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A69">
 <polygon width="0.4" layer="1" >
 <vertex x="199.5" y="1358.82"/>
@@ -2767,6 +2836,7 @@ design rules under a new name.</description>
 <vertex x="218.7" y="10.7"/>
 <vertex x="218.7" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A70">
 <polygon width="0.4" layer="1" >
 <vertex x="202.3" y="1358.82"/>
@@ -2787,6 +2857,7 @@ design rules under a new name.</description>
 <vertex x="215.9" y="10.7"/>
 <vertex x="215.9" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A71">
 <polygon width="0.4" layer="1" >
 <vertex x="205.1" y="1358.82"/>
@@ -2807,6 +2878,7 @@ design rules under a new name.</description>
 <vertex x="213.1" y="10.7"/>
 <vertex x="213.1" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A72">
 <polygon width="0.4" layer="1" >
 <vertex x="207.9" y="1358.82"/>
@@ -2827,6 +2899,7 @@ design rules under a new name.</description>
 <vertex x="210.3" y="10.7"/>
 <vertex x="210.3" y="0.7"/>
 </polygon>
+</signal>
 <signal name="PAD$A73">
 <polygon width="0.4" layer="1" >
 <vertex x="210.7" y="1358.82"/>
@@ -2847,6 +2920,7 @@ design rules under a new name.</description>
 <vertex x="207.5" y="10.7"/>
 <vertex x="207.5" y="0.7"/>
 </polygon>
+</signal>
 </signals>
 </board>
 </drawing>

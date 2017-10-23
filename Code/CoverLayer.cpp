@@ -88,6 +88,7 @@ void MakeCoverSignals()
  for (int i=0; i<TPC_Nresistors-4; i+=4)
    {
      MakeCoverStripes(i/4);
+     cout<< "</signal>" << endl;
        }
 
   cout << "</signals>" << endl;
