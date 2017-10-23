@@ -15,7 +15,7 @@ void FullCover()
   streambuf* oldCout= cout.rdbuf();
   cout.rdbuf(outFile.rdbuf());
 
-  //InsertFile();  pre code junk
+  InsertFile("/home/blake/TPC/Projects/Code/Pre-Code Junk.txt");
   MakePlain();
   //InsertFile(); post code junk
 
