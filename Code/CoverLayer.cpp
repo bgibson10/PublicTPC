@@ -43,7 +43,7 @@ void InsertFile(const char *source)
 
 
 void MakePlain() {
- 
+  /*
   cout << "<plain>" << endl;
   cout << "<wire x1=\"" << BOARD_LEFT_X  << "\" y1=\"" << BOARD_BOT_Y << "\" x2=\"" << BOARD_RIGHT_X
                                                            << "\" y2=\"" << BOARD_BOT_Y << "\" width=\"0\" layer=\"20\"/>" << endl;
@@ -77,6 +77,7 @@ void MakePlain() {
   cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
 
   cout << "</plain>" << endl;
+  */
 }
 
 
@@ -118,12 +119,12 @@ void MakeCoverStripes(int i)
   dx[4]=     -(dx_coverShortWidth);            // oi
   dy[5]=     -(dy_coverShort);            // io
            //Start of going up
-  dx[6]=      (dx_coverTop);              // oo
+  dx[6]=     - (dx_coverTop);              // oo
   dy[7]=      dy_coverShort;              // oi
   dx[8]=     -(dx_coverShortWidth);            // io
   dy[9]=      dy_coverLong;               // oo
-  dx[10]=     dx_coverShortWidth;              // oi
-  dy[11]=     dy_coverShort;              // io 
+  // dx[10]=    - dx_coverShortWidth;              // oi
+  // dy[11]=     dy_coverShort;              // io 
 
   double x = x_origin_A + 0.5*PolygonWidth; //may need to adjust with one dx_coverShort
   double y = y_origin_A - 0.5*PolygonWidth;
