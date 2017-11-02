@@ -123,7 +123,7 @@ void MakeCoverStripes(int i)
   dy[7]=      dy_coverShort;              // oi
   dx[8]=     -(dx_coverShortWidth);            // io
   dy[9]=      dy_coverLong;               // oo
-  // dx[10]=    - dx_coverShortWidth;              // oi
+  dx[10]=    - dx_coverShortWidth;              // oi
   // dy[11]=     dy_coverShort;              // io 
 
   double x = x_origin_A + 0.5*PolygonWidth; //may need to adjust with one dx_coverShort
