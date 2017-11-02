@@ -110,7 +110,7 @@ void MakeCoverStripes(int i)
 {
   double dx[12] = {0};
   double dy[12] = {0};
-  int curve[12] = {0,0,1,0,0,1,0,0,1,0,0,1};
+  int curve[12] = {0,1,0,0,1,0,0,1,0,0,1,0};
 
   dx[0]=      dx_coverTop;                // oo
   dy[1]=     -(dy_coverShort);            // oi
@@ -142,13 +142,13 @@ void MakeCoverStripes(int i)
 	  cout << "<vertex x=\"" << x << "\" y=\"" << y << "\"/>" << endl;
 	}
       else {
-	/* double cx1 = x - Sign(dx[j])*InnerRadius;
-	  double cy1 = y - Sign(dy[j])*InnerRadius;
-	  double cx2 = x + Sign(dx[j+1])*InnerRadius;
-	  double cy2 = y + Sign(dy[j+1])*InnerRadius;*/
-	  cout << "<vertex x=\"" << x  << "\" y=\"" << y  << "\" curve=\"90\" />" << endl;
-	  cout << "<vertex x=\"" << x  << "\" y=\"" << y  << "\"/>" << endl;
-	}
+	double cx1 = x - (dx[j])*InnerRadius;
+	double cy1 = y - (dy[j])*InnerRadius;
+	double cx2 = x + (dx[j+1])*InnerRadius;
+	double cy2 = y + (dy[j+1])*InnerRadius;
+	  cout << "<vertex x=\"" << cx1  << "\" y=\"" << cy1  << "\" curve=\"90\" />" << endl;
+	  cout << "<vertex x=\"" << cx2  << "\" y=\"" << cy2  << "\"/>" << endl;
+      }
     }
   cout << "</polygon>" << endl;
   
@@ -157,7 +157,7 @@ void MakeCoverStripes(int i)
 
 
 /*
-
+  
   cout << "<plain>" << endl;
   cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X)
                                                            << "\" y2=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
