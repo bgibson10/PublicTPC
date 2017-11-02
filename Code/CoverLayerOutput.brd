@@ -1360,20 +1360,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="6.3" y="1358.82"/>
 <vertex x="7.45" y="1358.82"/>
-<vertex x="7.45" y="1348.82" curve="90" />
 <vertex x="7.45" y="1348.82"/>
+<vertex x="8.025" y="1348.82" curve="90" />
 <vertex x="8.025" y="1348.82"/>
 <vertex x="8.025" y="1318.82"/>
-<vertex x="7.45" y="1318.82" curve="90" />
 <vertex x="7.45" y="1318.82"/>
+<vertex x="7.45" y="1308.82" curve="90" />
 <vertex x="7.45" y="1308.82"/>
 <vertex x="6.3" y="1308.82"/>
-<vertex x="6.3" y="1318.82" curve="90" />
 <vertex x="6.3" y="1318.82"/>
+<vertex x="5.725" y="1318.82" curve="90" />
 <vertex x="5.725" y="1318.82"/>
 <vertex x="5.725" y="1348.82"/>
-<vertex x="6.3" y="1348.82" curve="90" />
 <vertex x="6.3" y="1348.82"/>
+<vertex x="6.3" y="1348.82" curve="90" />
 <vertex x="6.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1381,20 +1381,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="11.9" y="1358.82"/>
 <vertex x="13.05" y="1358.82"/>
-<vertex x="13.05" y="1348.82" curve="90" />
 <vertex x="13.05" y="1348.82"/>
+<vertex x="13.625" y="1348.82" curve="90" />
 <vertex x="13.625" y="1348.82"/>
 <vertex x="13.625" y="1318.82"/>
-<vertex x="13.05" y="1318.82" curve="90" />
 <vertex x="13.05" y="1318.82"/>
+<vertex x="13.05" y="1308.82" curve="90" />
 <vertex x="13.05" y="1308.82"/>
 <vertex x="11.9" y="1308.82"/>
-<vertex x="11.9" y="1318.82" curve="90" />
 <vertex x="11.9" y="1318.82"/>
+<vertex x="11.325" y="1318.82" curve="90" />
 <vertex x="11.325" y="1318.82"/>
 <vertex x="11.325" y="1348.82"/>
-<vertex x="11.9" y="1348.82" curve="90" />
 <vertex x="11.9" y="1348.82"/>
+<vertex x="11.9" y="1348.82" curve="90" />
 <vertex x="11.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1402,20 +1402,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="17.5" y="1358.82"/>
 <vertex x="18.65" y="1358.82"/>
-<vertex x="18.65" y="1348.82" curve="90" />
 <vertex x="18.65" y="1348.82"/>
+<vertex x="19.225" y="1348.82" curve="90" />
 <vertex x="19.225" y="1348.82"/>
 <vertex x="19.225" y="1318.82"/>
-<vertex x="18.65" y="1318.82" curve="90" />
 <vertex x="18.65" y="1318.82"/>
+<vertex x="18.65" y="1308.82" curve="90" />
 <vertex x="18.65" y="1308.82"/>
 <vertex x="17.5" y="1308.82"/>
-<vertex x="17.5" y="1318.82" curve="90" />
 <vertex x="17.5" y="1318.82"/>
+<vertex x="16.925" y="1318.82" curve="90" />
 <vertex x="16.925" y="1318.82"/>
 <vertex x="16.925" y="1348.82"/>
-<vertex x="17.5" y="1348.82" curve="90" />
 <vertex x="17.5" y="1348.82"/>
+<vertex x="17.5" y="1348.82" curve="90" />
 <vertex x="17.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1423,20 +1423,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="23.1" y="1358.82"/>
 <vertex x="24.25" y="1358.82"/>
-<vertex x="24.25" y="1348.82" curve="90" />
 <vertex x="24.25" y="1348.82"/>
+<vertex x="24.825" y="1348.82" curve="90" />
 <vertex x="24.825" y="1348.82"/>
 <vertex x="24.825" y="1318.82"/>
-<vertex x="24.25" y="1318.82" curve="90" />
 <vertex x="24.25" y="1318.82"/>
+<vertex x="24.25" y="1308.82" curve="90" />
 <vertex x="24.25" y="1308.82"/>
 <vertex x="23.1" y="1308.82"/>
-<vertex x="23.1" y="1318.82" curve="90" />
 <vertex x="23.1" y="1318.82"/>
+<vertex x="22.525" y="1318.82" curve="90" />
 <vertex x="22.525" y="1318.82"/>
 <vertex x="22.525" y="1348.82"/>
-<vertex x="23.1" y="1348.82" curve="90" />
 <vertex x="23.1" y="1348.82"/>
+<vertex x="23.1" y="1348.82" curve="90" />
 <vertex x="23.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1444,20 +1444,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="28.7" y="1358.82"/>
 <vertex x="29.85" y="1358.82"/>
-<vertex x="29.85" y="1348.82" curve="90" />
 <vertex x="29.85" y="1348.82"/>
+<vertex x="30.425" y="1348.82" curve="90" />
 <vertex x="30.425" y="1348.82"/>
 <vertex x="30.425" y="1318.82"/>
-<vertex x="29.85" y="1318.82" curve="90" />
 <vertex x="29.85" y="1318.82"/>
+<vertex x="29.85" y="1308.82" curve="90" />
 <vertex x="29.85" y="1308.82"/>
 <vertex x="28.7" y="1308.82"/>
-<vertex x="28.7" y="1318.82" curve="90" />
 <vertex x="28.7" y="1318.82"/>
+<vertex x="28.125" y="1318.82" curve="90" />
 <vertex x="28.125" y="1318.82"/>
 <vertex x="28.125" y="1348.82"/>
-<vertex x="28.7" y="1348.82" curve="90" />
 <vertex x="28.7" y="1348.82"/>
+<vertex x="28.7" y="1348.82" curve="90" />
 <vertex x="28.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1465,20 +1465,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="34.3" y="1358.82"/>
 <vertex x="35.45" y="1358.82"/>
-<vertex x="35.45" y="1348.82" curve="90" />
 <vertex x="35.45" y="1348.82"/>
+<vertex x="36.025" y="1348.82" curve="90" />
 <vertex x="36.025" y="1348.82"/>
 <vertex x="36.025" y="1318.82"/>
-<vertex x="35.45" y="1318.82" curve="90" />
 <vertex x="35.45" y="1318.82"/>
+<vertex x="35.45" y="1308.82" curve="90" />
 <vertex x="35.45" y="1308.82"/>
 <vertex x="34.3" y="1308.82"/>
-<vertex x="34.3" y="1318.82" curve="90" />
 <vertex x="34.3" y="1318.82"/>
+<vertex x="33.725" y="1318.82" curve="90" />
 <vertex x="33.725" y="1318.82"/>
 <vertex x="33.725" y="1348.82"/>
-<vertex x="34.3" y="1348.82" curve="90" />
 <vertex x="34.3" y="1348.82"/>
+<vertex x="34.3" y="1348.82" curve="90" />
 <vertex x="34.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1486,20 +1486,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="39.9" y="1358.82"/>
 <vertex x="41.05" y="1358.82"/>
-<vertex x="41.05" y="1348.82" curve="90" />
 <vertex x="41.05" y="1348.82"/>
+<vertex x="41.625" y="1348.82" curve="90" />
 <vertex x="41.625" y="1348.82"/>
 <vertex x="41.625" y="1318.82"/>
-<vertex x="41.05" y="1318.82" curve="90" />
 <vertex x="41.05" y="1318.82"/>
+<vertex x="41.05" y="1308.82" curve="90" />
 <vertex x="41.05" y="1308.82"/>
 <vertex x="39.9" y="1308.82"/>
-<vertex x="39.9" y="1318.82" curve="90" />
 <vertex x="39.9" y="1318.82"/>
+<vertex x="39.325" y="1318.82" curve="90" />
 <vertex x="39.325" y="1318.82"/>
 <vertex x="39.325" y="1348.82"/>
-<vertex x="39.9" y="1348.82" curve="90" />
 <vertex x="39.9" y="1348.82"/>
+<vertex x="39.9" y="1348.82" curve="90" />
 <vertex x="39.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1507,20 +1507,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="45.5" y="1358.82"/>
 <vertex x="46.65" y="1358.82"/>
-<vertex x="46.65" y="1348.82" curve="90" />
 <vertex x="46.65" y="1348.82"/>
+<vertex x="47.225" y="1348.82" curve="90" />
 <vertex x="47.225" y="1348.82"/>
 <vertex x="47.225" y="1318.82"/>
-<vertex x="46.65" y="1318.82" curve="90" />
 <vertex x="46.65" y="1318.82"/>
+<vertex x="46.65" y="1308.82" curve="90" />
 <vertex x="46.65" y="1308.82"/>
 <vertex x="45.5" y="1308.82"/>
-<vertex x="45.5" y="1318.82" curve="90" />
 <vertex x="45.5" y="1318.82"/>
+<vertex x="44.925" y="1318.82" curve="90" />
 <vertex x="44.925" y="1318.82"/>
 <vertex x="44.925" y="1348.82"/>
-<vertex x="45.5" y="1348.82" curve="90" />
 <vertex x="45.5" y="1348.82"/>
+<vertex x="45.5" y="1348.82" curve="90" />
 <vertex x="45.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1528,20 +1528,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="51.1" y="1358.82"/>
 <vertex x="52.25" y="1358.82"/>
-<vertex x="52.25" y="1348.82" curve="90" />
 <vertex x="52.25" y="1348.82"/>
+<vertex x="52.825" y="1348.82" curve="90" />
 <vertex x="52.825" y="1348.82"/>
 <vertex x="52.825" y="1318.82"/>
-<vertex x="52.25" y="1318.82" curve="90" />
 <vertex x="52.25" y="1318.82"/>
+<vertex x="52.25" y="1308.82" curve="90" />
 <vertex x="52.25" y="1308.82"/>
 <vertex x="51.1" y="1308.82"/>
-<vertex x="51.1" y="1318.82" curve="90" />
 <vertex x="51.1" y="1318.82"/>
+<vertex x="50.525" y="1318.82" curve="90" />
 <vertex x="50.525" y="1318.82"/>
 <vertex x="50.525" y="1348.82"/>
-<vertex x="51.1" y="1348.82" curve="90" />
 <vertex x="51.1" y="1348.82"/>
+<vertex x="51.1" y="1348.82" curve="90" />
 <vertex x="51.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1549,20 +1549,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="56.7" y="1358.82"/>
 <vertex x="57.85" y="1358.82"/>
-<vertex x="57.85" y="1348.82" curve="90" />
 <vertex x="57.85" y="1348.82"/>
+<vertex x="58.425" y="1348.82" curve="90" />
 <vertex x="58.425" y="1348.82"/>
 <vertex x="58.425" y="1318.82"/>
-<vertex x="57.85" y="1318.82" curve="90" />
 <vertex x="57.85" y="1318.82"/>
+<vertex x="57.85" y="1308.82" curve="90" />
 <vertex x="57.85" y="1308.82"/>
 <vertex x="56.7" y="1308.82"/>
-<vertex x="56.7" y="1318.82" curve="90" />
 <vertex x="56.7" y="1318.82"/>
+<vertex x="56.125" y="1318.82" curve="90" />
 <vertex x="56.125" y="1318.82"/>
 <vertex x="56.125" y="1348.82"/>
-<vertex x="56.7" y="1348.82" curve="90" />
 <vertex x="56.7" y="1348.82"/>
+<vertex x="56.7" y="1348.82" curve="90" />
 <vertex x="56.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1570,20 +1570,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="62.3" y="1358.82"/>
 <vertex x="63.45" y="1358.82"/>
-<vertex x="63.45" y="1348.82" curve="90" />
 <vertex x="63.45" y="1348.82"/>
+<vertex x="64.025" y="1348.82" curve="90" />
 <vertex x="64.025" y="1348.82"/>
 <vertex x="64.025" y="1318.82"/>
-<vertex x="63.45" y="1318.82" curve="90" />
 <vertex x="63.45" y="1318.82"/>
+<vertex x="63.45" y="1308.82" curve="90" />
 <vertex x="63.45" y="1308.82"/>
 <vertex x="62.3" y="1308.82"/>
-<vertex x="62.3" y="1318.82" curve="90" />
 <vertex x="62.3" y="1318.82"/>
+<vertex x="61.725" y="1318.82" curve="90" />
 <vertex x="61.725" y="1318.82"/>
 <vertex x="61.725" y="1348.82"/>
-<vertex x="62.3" y="1348.82" curve="90" />
 <vertex x="62.3" y="1348.82"/>
+<vertex x="62.3" y="1348.82" curve="90" />
 <vertex x="62.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1591,20 +1591,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="67.9" y="1358.82"/>
 <vertex x="69.05" y="1358.82"/>
-<vertex x="69.05" y="1348.82" curve="90" />
 <vertex x="69.05" y="1348.82"/>
+<vertex x="69.625" y="1348.82" curve="90" />
 <vertex x="69.625" y="1348.82"/>
 <vertex x="69.625" y="1318.82"/>
-<vertex x="69.05" y="1318.82" curve="90" />
 <vertex x="69.05" y="1318.82"/>
+<vertex x="69.05" y="1308.82" curve="90" />
 <vertex x="69.05" y="1308.82"/>
 <vertex x="67.9" y="1308.82"/>
-<vertex x="67.9" y="1318.82" curve="90" />
 <vertex x="67.9" y="1318.82"/>
+<vertex x="67.325" y="1318.82" curve="90" />
 <vertex x="67.325" y="1318.82"/>
 <vertex x="67.325" y="1348.82"/>
-<vertex x="67.9" y="1348.82" curve="90" />
 <vertex x="67.9" y="1348.82"/>
+<vertex x="67.9" y="1348.82" curve="90" />
 <vertex x="67.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1612,20 +1612,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="73.5" y="1358.82"/>
 <vertex x="74.65" y="1358.82"/>
-<vertex x="74.65" y="1348.82" curve="90" />
 <vertex x="74.65" y="1348.82"/>
+<vertex x="75.225" y="1348.82" curve="90" />
 <vertex x="75.225" y="1348.82"/>
 <vertex x="75.225" y="1318.82"/>
-<vertex x="74.65" y="1318.82" curve="90" />
 <vertex x="74.65" y="1318.82"/>
+<vertex x="74.65" y="1308.82" curve="90" />
 <vertex x="74.65" y="1308.82"/>
 <vertex x="73.5" y="1308.82"/>
-<vertex x="73.5" y="1318.82" curve="90" />
 <vertex x="73.5" y="1318.82"/>
+<vertex x="72.925" y="1318.82" curve="90" />
 <vertex x="72.925" y="1318.82"/>
 <vertex x="72.925" y="1348.82"/>
-<vertex x="73.5" y="1348.82" curve="90" />
 <vertex x="73.5" y="1348.82"/>
+<vertex x="73.5" y="1348.82" curve="90" />
 <vertex x="73.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1633,20 +1633,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="79.1" y="1358.82"/>
 <vertex x="80.25" y="1358.82"/>
-<vertex x="80.25" y="1348.82" curve="90" />
 <vertex x="80.25" y="1348.82"/>
+<vertex x="80.825" y="1348.82" curve="90" />
 <vertex x="80.825" y="1348.82"/>
 <vertex x="80.825" y="1318.82"/>
-<vertex x="80.25" y="1318.82" curve="90" />
 <vertex x="80.25" y="1318.82"/>
+<vertex x="80.25" y="1308.82" curve="90" />
 <vertex x="80.25" y="1308.82"/>
 <vertex x="79.1" y="1308.82"/>
-<vertex x="79.1" y="1318.82" curve="90" />
 <vertex x="79.1" y="1318.82"/>
+<vertex x="78.525" y="1318.82" curve="90" />
 <vertex x="78.525" y="1318.82"/>
 <vertex x="78.525" y="1348.82"/>
-<vertex x="79.1" y="1348.82" curve="90" />
 <vertex x="79.1" y="1348.82"/>
+<vertex x="79.1" y="1348.82" curve="90" />
 <vertex x="79.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1654,20 +1654,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="84.7" y="1358.82"/>
 <vertex x="85.85" y="1358.82"/>
-<vertex x="85.85" y="1348.82" curve="90" />
 <vertex x="85.85" y="1348.82"/>
+<vertex x="86.425" y="1348.82" curve="90" />
 <vertex x="86.425" y="1348.82"/>
 <vertex x="86.425" y="1318.82"/>
-<vertex x="85.85" y="1318.82" curve="90" />
 <vertex x="85.85" y="1318.82"/>
+<vertex x="85.85" y="1308.82" curve="90" />
 <vertex x="85.85" y="1308.82"/>
 <vertex x="84.7" y="1308.82"/>
-<vertex x="84.7" y="1318.82" curve="90" />
 <vertex x="84.7" y="1318.82"/>
+<vertex x="84.125" y="1318.82" curve="90" />
 <vertex x="84.125" y="1318.82"/>
 <vertex x="84.125" y="1348.82"/>
-<vertex x="84.7" y="1348.82" curve="90" />
 <vertex x="84.7" y="1348.82"/>
+<vertex x="84.7" y="1348.82" curve="90" />
 <vertex x="84.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1675,20 +1675,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="90.3" y="1358.82"/>
 <vertex x="91.45" y="1358.82"/>
-<vertex x="91.45" y="1348.82" curve="90" />
 <vertex x="91.45" y="1348.82"/>
+<vertex x="92.025" y="1348.82" curve="90" />
 <vertex x="92.025" y="1348.82"/>
 <vertex x="92.025" y="1318.82"/>
-<vertex x="91.45" y="1318.82" curve="90" />
 <vertex x="91.45" y="1318.82"/>
+<vertex x="91.45" y="1308.82" curve="90" />
 <vertex x="91.45" y="1308.82"/>
 <vertex x="90.3" y="1308.82"/>
-<vertex x="90.3" y="1318.82" curve="90" />
 <vertex x="90.3" y="1318.82"/>
+<vertex x="89.725" y="1318.82" curve="90" />
 <vertex x="89.725" y="1318.82"/>
 <vertex x="89.725" y="1348.82"/>
-<vertex x="90.3" y="1348.82" curve="90" />
 <vertex x="90.3" y="1348.82"/>
+<vertex x="90.3" y="1348.82" curve="90" />
 <vertex x="90.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1696,20 +1696,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="95.9" y="1358.82"/>
 <vertex x="97.05" y="1358.82"/>
-<vertex x="97.05" y="1348.82" curve="90" />
 <vertex x="97.05" y="1348.82"/>
+<vertex x="97.625" y="1348.82" curve="90" />
 <vertex x="97.625" y="1348.82"/>
 <vertex x="97.625" y="1318.82"/>
-<vertex x="97.05" y="1318.82" curve="90" />
 <vertex x="97.05" y="1318.82"/>
+<vertex x="97.05" y="1308.82" curve="90" />
 <vertex x="97.05" y="1308.82"/>
 <vertex x="95.9" y="1308.82"/>
-<vertex x="95.9" y="1318.82" curve="90" />
 <vertex x="95.9" y="1318.82"/>
+<vertex x="95.325" y="1318.82" curve="90" />
 <vertex x="95.325" y="1318.82"/>
 <vertex x="95.325" y="1348.82"/>
-<vertex x="95.9" y="1348.82" curve="90" />
 <vertex x="95.9" y="1348.82"/>
+<vertex x="95.9" y="1348.82" curve="90" />
 <vertex x="95.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1717,20 +1717,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="101.5" y="1358.82"/>
 <vertex x="102.65" y="1358.82"/>
-<vertex x="102.65" y="1348.82" curve="90" />
 <vertex x="102.65" y="1348.82"/>
+<vertex x="103.225" y="1348.82" curve="90" />
 <vertex x="103.225" y="1348.82"/>
 <vertex x="103.225" y="1318.82"/>
-<vertex x="102.65" y="1318.82" curve="90" />
 <vertex x="102.65" y="1318.82"/>
+<vertex x="102.65" y="1308.82" curve="90" />
 <vertex x="102.65" y="1308.82"/>
 <vertex x="101.5" y="1308.82"/>
-<vertex x="101.5" y="1318.82" curve="90" />
 <vertex x="101.5" y="1318.82"/>
+<vertex x="100.925" y="1318.82" curve="90" />
 <vertex x="100.925" y="1318.82"/>
 <vertex x="100.925" y="1348.82"/>
-<vertex x="101.5" y="1348.82" curve="90" />
 <vertex x="101.5" y="1348.82"/>
+<vertex x="101.5" y="1348.82" curve="90" />
 <vertex x="101.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1738,20 +1738,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="107.1" y="1358.82"/>
 <vertex x="108.25" y="1358.82"/>
-<vertex x="108.25" y="1348.82" curve="90" />
 <vertex x="108.25" y="1348.82"/>
+<vertex x="108.825" y="1348.82" curve="90" />
 <vertex x="108.825" y="1348.82"/>
 <vertex x="108.825" y="1318.82"/>
-<vertex x="108.25" y="1318.82" curve="90" />
 <vertex x="108.25" y="1318.82"/>
+<vertex x="108.25" y="1308.82" curve="90" />
 <vertex x="108.25" y="1308.82"/>
 <vertex x="107.1" y="1308.82"/>
-<vertex x="107.1" y="1318.82" curve="90" />
 <vertex x="107.1" y="1318.82"/>
+<vertex x="106.525" y="1318.82" curve="90" />
 <vertex x="106.525" y="1318.82"/>
 <vertex x="106.525" y="1348.82"/>
-<vertex x="107.1" y="1348.82" curve="90" />
 <vertex x="107.1" y="1348.82"/>
+<vertex x="107.1" y="1348.82" curve="90" />
 <vertex x="107.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1759,20 +1759,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="112.7" y="1358.82"/>
 <vertex x="113.85" y="1358.82"/>
-<vertex x="113.85" y="1348.82" curve="90" />
 <vertex x="113.85" y="1348.82"/>
+<vertex x="114.425" y="1348.82" curve="90" />
 <vertex x="114.425" y="1348.82"/>
 <vertex x="114.425" y="1318.82"/>
-<vertex x="113.85" y="1318.82" curve="90" />
 <vertex x="113.85" y="1318.82"/>
+<vertex x="113.85" y="1308.82" curve="90" />
 <vertex x="113.85" y="1308.82"/>
 <vertex x="112.7" y="1308.82"/>
-<vertex x="112.7" y="1318.82" curve="90" />
 <vertex x="112.7" y="1318.82"/>
+<vertex x="112.125" y="1318.82" curve="90" />
 <vertex x="112.125" y="1318.82"/>
 <vertex x="112.125" y="1348.82"/>
-<vertex x="112.7" y="1348.82" curve="90" />
 <vertex x="112.7" y="1348.82"/>
+<vertex x="112.7" y="1348.82" curve="90" />
 <vertex x="112.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1780,20 +1780,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="118.3" y="1358.82"/>
 <vertex x="119.45" y="1358.82"/>
-<vertex x="119.45" y="1348.82" curve="90" />
 <vertex x="119.45" y="1348.82"/>
+<vertex x="120.025" y="1348.82" curve="90" />
 <vertex x="120.025" y="1348.82"/>
 <vertex x="120.025" y="1318.82"/>
-<vertex x="119.45" y="1318.82" curve="90" />
 <vertex x="119.45" y="1318.82"/>
+<vertex x="119.45" y="1308.82" curve="90" />
 <vertex x="119.45" y="1308.82"/>
 <vertex x="118.3" y="1308.82"/>
-<vertex x="118.3" y="1318.82" curve="90" />
 <vertex x="118.3" y="1318.82"/>
+<vertex x="117.725" y="1318.82" curve="90" />
 <vertex x="117.725" y="1318.82"/>
 <vertex x="117.725" y="1348.82"/>
-<vertex x="118.3" y="1348.82" curve="90" />
 <vertex x="118.3" y="1348.82"/>
+<vertex x="118.3" y="1348.82" curve="90" />
 <vertex x="118.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1801,20 +1801,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="123.9" y="1358.82"/>
 <vertex x="125.05" y="1358.82"/>
-<vertex x="125.05" y="1348.82" curve="90" />
 <vertex x="125.05" y="1348.82"/>
+<vertex x="125.625" y="1348.82" curve="90" />
 <vertex x="125.625" y="1348.82"/>
 <vertex x="125.625" y="1318.82"/>
-<vertex x="125.05" y="1318.82" curve="90" />
 <vertex x="125.05" y="1318.82"/>
+<vertex x="125.05" y="1308.82" curve="90" />
 <vertex x="125.05" y="1308.82"/>
 <vertex x="123.9" y="1308.82"/>
-<vertex x="123.9" y="1318.82" curve="90" />
 <vertex x="123.9" y="1318.82"/>
+<vertex x="123.325" y="1318.82" curve="90" />
 <vertex x="123.325" y="1318.82"/>
 <vertex x="123.325" y="1348.82"/>
-<vertex x="123.9" y="1348.82" curve="90" />
 <vertex x="123.9" y="1348.82"/>
+<vertex x="123.9" y="1348.82" curve="90" />
 <vertex x="123.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1822,20 +1822,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="129.5" y="1358.82"/>
 <vertex x="130.65" y="1358.82"/>
-<vertex x="130.65" y="1348.82" curve="90" />
 <vertex x="130.65" y="1348.82"/>
+<vertex x="131.225" y="1348.82" curve="90" />
 <vertex x="131.225" y="1348.82"/>
 <vertex x="131.225" y="1318.82"/>
-<vertex x="130.65" y="1318.82" curve="90" />
 <vertex x="130.65" y="1318.82"/>
+<vertex x="130.65" y="1308.82" curve="90" />
 <vertex x="130.65" y="1308.82"/>
 <vertex x="129.5" y="1308.82"/>
-<vertex x="129.5" y="1318.82" curve="90" />
 <vertex x="129.5" y="1318.82"/>
+<vertex x="128.925" y="1318.82" curve="90" />
 <vertex x="128.925" y="1318.82"/>
 <vertex x="128.925" y="1348.82"/>
-<vertex x="129.5" y="1348.82" curve="90" />
 <vertex x="129.5" y="1348.82"/>
+<vertex x="129.5" y="1348.82" curve="90" />
 <vertex x="129.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1843,20 +1843,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="135.1" y="1358.82"/>
 <vertex x="136.25" y="1358.82"/>
-<vertex x="136.25" y="1348.82" curve="90" />
 <vertex x="136.25" y="1348.82"/>
+<vertex x="136.825" y="1348.82" curve="90" />
 <vertex x="136.825" y="1348.82"/>
 <vertex x="136.825" y="1318.82"/>
-<vertex x="136.25" y="1318.82" curve="90" />
 <vertex x="136.25" y="1318.82"/>
+<vertex x="136.25" y="1308.82" curve="90" />
 <vertex x="136.25" y="1308.82"/>
 <vertex x="135.1" y="1308.82"/>
-<vertex x="135.1" y="1318.82" curve="90" />
 <vertex x="135.1" y="1318.82"/>
+<vertex x="134.525" y="1318.82" curve="90" />
 <vertex x="134.525" y="1318.82"/>
 <vertex x="134.525" y="1348.82"/>
-<vertex x="135.1" y="1348.82" curve="90" />
 <vertex x="135.1" y="1348.82"/>
+<vertex x="135.1" y="1348.82" curve="90" />
 <vertex x="135.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1864,20 +1864,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="140.7" y="1358.82"/>
 <vertex x="141.85" y="1358.82"/>
-<vertex x="141.85" y="1348.82" curve="90" />
 <vertex x="141.85" y="1348.82"/>
+<vertex x="142.425" y="1348.82" curve="90" />
 <vertex x="142.425" y="1348.82"/>
 <vertex x="142.425" y="1318.82"/>
-<vertex x="141.85" y="1318.82" curve="90" />
 <vertex x="141.85" y="1318.82"/>
+<vertex x="141.85" y="1308.82" curve="90" />
 <vertex x="141.85" y="1308.82"/>
 <vertex x="140.7" y="1308.82"/>
-<vertex x="140.7" y="1318.82" curve="90" />
 <vertex x="140.7" y="1318.82"/>
+<vertex x="140.125" y="1318.82" curve="90" />
 <vertex x="140.125" y="1318.82"/>
 <vertex x="140.125" y="1348.82"/>
-<vertex x="140.7" y="1348.82" curve="90" />
 <vertex x="140.7" y="1348.82"/>
+<vertex x="140.7" y="1348.82" curve="90" />
 <vertex x="140.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1885,20 +1885,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="146.3" y="1358.82"/>
 <vertex x="147.45" y="1358.82"/>
-<vertex x="147.45" y="1348.82" curve="90" />
 <vertex x="147.45" y="1348.82"/>
+<vertex x="148.025" y="1348.82" curve="90" />
 <vertex x="148.025" y="1348.82"/>
 <vertex x="148.025" y="1318.82"/>
-<vertex x="147.45" y="1318.82" curve="90" />
 <vertex x="147.45" y="1318.82"/>
+<vertex x="147.45" y="1308.82" curve="90" />
 <vertex x="147.45" y="1308.82"/>
 <vertex x="146.3" y="1308.82"/>
-<vertex x="146.3" y="1318.82" curve="90" />
 <vertex x="146.3" y="1318.82"/>
+<vertex x="145.725" y="1318.82" curve="90" />
 <vertex x="145.725" y="1318.82"/>
 <vertex x="145.725" y="1348.82"/>
-<vertex x="146.3" y="1348.82" curve="90" />
 <vertex x="146.3" y="1348.82"/>
+<vertex x="146.3" y="1348.82" curve="90" />
 <vertex x="146.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -1906,20 +1906,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="151.9" y="1358.82"/>
 <vertex x="153.05" y="1358.82"/>
-<vertex x="153.05" y="1348.82" curve="90" />
 <vertex x="153.05" y="1348.82"/>
+<vertex x="153.625" y="1348.82" curve="90" />
 <vertex x="153.625" y="1348.82"/>
 <vertex x="153.625" y="1318.82"/>
-<vertex x="153.05" y="1318.82" curve="90" />
 <vertex x="153.05" y="1318.82"/>
+<vertex x="153.05" y="1308.82" curve="90" />
 <vertex x="153.05" y="1308.82"/>
 <vertex x="151.9" y="1308.82"/>
-<vertex x="151.9" y="1318.82" curve="90" />
 <vertex x="151.9" y="1318.82"/>
+<vertex x="151.325" y="1318.82" curve="90" />
 <vertex x="151.325" y="1318.82"/>
 <vertex x="151.325" y="1348.82"/>
-<vertex x="151.9" y="1348.82" curve="90" />
 <vertex x="151.9" y="1348.82"/>
+<vertex x="151.9" y="1348.82" curve="90" />
 <vertex x="151.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -1927,20 +1927,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="157.5" y="1358.82"/>
 <vertex x="158.65" y="1358.82"/>
-<vertex x="158.65" y="1348.82" curve="90" />
 <vertex x="158.65" y="1348.82"/>
+<vertex x="159.225" y="1348.82" curve="90" />
 <vertex x="159.225" y="1348.82"/>
 <vertex x="159.225" y="1318.82"/>
-<vertex x="158.65" y="1318.82" curve="90" />
 <vertex x="158.65" y="1318.82"/>
+<vertex x="158.65" y="1308.82" curve="90" />
 <vertex x="158.65" y="1308.82"/>
 <vertex x="157.5" y="1308.82"/>
-<vertex x="157.5" y="1318.82" curve="90" />
 <vertex x="157.5" y="1318.82"/>
+<vertex x="156.925" y="1318.82" curve="90" />
 <vertex x="156.925" y="1318.82"/>
 <vertex x="156.925" y="1348.82"/>
-<vertex x="157.5" y="1348.82" curve="90" />
 <vertex x="157.5" y="1348.82"/>
+<vertex x="157.5" y="1348.82" curve="90" />
 <vertex x="157.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -1948,20 +1948,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="163.1" y="1358.82"/>
 <vertex x="164.25" y="1358.82"/>
-<vertex x="164.25" y="1348.82" curve="90" />
 <vertex x="164.25" y="1348.82"/>
+<vertex x="164.825" y="1348.82" curve="90" />
 <vertex x="164.825" y="1348.82"/>
 <vertex x="164.825" y="1318.82"/>
-<vertex x="164.25" y="1318.82" curve="90" />
 <vertex x="164.25" y="1318.82"/>
+<vertex x="164.25" y="1308.82" curve="90" />
 <vertex x="164.25" y="1308.82"/>
 <vertex x="163.1" y="1308.82"/>
-<vertex x="163.1" y="1318.82" curve="90" />
 <vertex x="163.1" y="1318.82"/>
+<vertex x="162.525" y="1318.82" curve="90" />
 <vertex x="162.525" y="1318.82"/>
 <vertex x="162.525" y="1348.82"/>
-<vertex x="163.1" y="1348.82" curve="90" />
 <vertex x="163.1" y="1348.82"/>
+<vertex x="163.1" y="1348.82" curve="90" />
 <vertex x="163.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -1969,20 +1969,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="168.7" y="1358.82"/>
 <vertex x="169.85" y="1358.82"/>
-<vertex x="169.85" y="1348.82" curve="90" />
 <vertex x="169.85" y="1348.82"/>
+<vertex x="170.425" y="1348.82" curve="90" />
 <vertex x="170.425" y="1348.82"/>
 <vertex x="170.425" y="1318.82"/>
-<vertex x="169.85" y="1318.82" curve="90" />
 <vertex x="169.85" y="1318.82"/>
+<vertex x="169.85" y="1308.82" curve="90" />
 <vertex x="169.85" y="1308.82"/>
 <vertex x="168.7" y="1308.82"/>
-<vertex x="168.7" y="1318.82" curve="90" />
 <vertex x="168.7" y="1318.82"/>
+<vertex x="168.125" y="1318.82" curve="90" />
 <vertex x="168.125" y="1318.82"/>
 <vertex x="168.125" y="1348.82"/>
-<vertex x="168.7" y="1348.82" curve="90" />
 <vertex x="168.7" y="1348.82"/>
+<vertex x="168.7" y="1348.82" curve="90" />
 <vertex x="168.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -1990,20 +1990,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="174.3" y="1358.82"/>
 <vertex x="175.45" y="1358.82"/>
-<vertex x="175.45" y="1348.82" curve="90" />
 <vertex x="175.45" y="1348.82"/>
+<vertex x="176.025" y="1348.82" curve="90" />
 <vertex x="176.025" y="1348.82"/>
 <vertex x="176.025" y="1318.82"/>
-<vertex x="175.45" y="1318.82" curve="90" />
 <vertex x="175.45" y="1318.82"/>
+<vertex x="175.45" y="1308.82" curve="90" />
 <vertex x="175.45" y="1308.82"/>
 <vertex x="174.3" y="1308.82"/>
-<vertex x="174.3" y="1318.82" curve="90" />
 <vertex x="174.3" y="1318.82"/>
+<vertex x="173.725" y="1318.82" curve="90" />
 <vertex x="173.725" y="1318.82"/>
 <vertex x="173.725" y="1348.82"/>
-<vertex x="174.3" y="1348.82" curve="90" />
 <vertex x="174.3" y="1348.82"/>
+<vertex x="174.3" y="1348.82" curve="90" />
 <vertex x="174.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2011,20 +2011,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="179.9" y="1358.82"/>
 <vertex x="181.05" y="1358.82"/>
-<vertex x="181.05" y="1348.82" curve="90" />
 <vertex x="181.05" y="1348.82"/>
+<vertex x="181.625" y="1348.82" curve="90" />
 <vertex x="181.625" y="1348.82"/>
 <vertex x="181.625" y="1318.82"/>
-<vertex x="181.05" y="1318.82" curve="90" />
 <vertex x="181.05" y="1318.82"/>
+<vertex x="181.05" y="1308.82" curve="90" />
 <vertex x="181.05" y="1308.82"/>
 <vertex x="179.9" y="1308.82"/>
-<vertex x="179.9" y="1318.82" curve="90" />
 <vertex x="179.9" y="1318.82"/>
+<vertex x="179.325" y="1318.82" curve="90" />
 <vertex x="179.325" y="1318.82"/>
 <vertex x="179.325" y="1348.82"/>
-<vertex x="179.9" y="1348.82" curve="90" />
 <vertex x="179.9" y="1348.82"/>
+<vertex x="179.9" y="1348.82" curve="90" />
 <vertex x="179.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2032,20 +2032,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="185.5" y="1358.82"/>
 <vertex x="186.65" y="1358.82"/>
-<vertex x="186.65" y="1348.82" curve="90" />
 <vertex x="186.65" y="1348.82"/>
+<vertex x="187.225" y="1348.82" curve="90" />
 <vertex x="187.225" y="1348.82"/>
 <vertex x="187.225" y="1318.82"/>
-<vertex x="186.65" y="1318.82" curve="90" />
 <vertex x="186.65" y="1318.82"/>
+<vertex x="186.65" y="1308.82" curve="90" />
 <vertex x="186.65" y="1308.82"/>
 <vertex x="185.5" y="1308.82"/>
-<vertex x="185.5" y="1318.82" curve="90" />
 <vertex x="185.5" y="1318.82"/>
+<vertex x="184.925" y="1318.82" curve="90" />
 <vertex x="184.925" y="1318.82"/>
 <vertex x="184.925" y="1348.82"/>
-<vertex x="185.5" y="1348.82" curve="90" />
 <vertex x="185.5" y="1348.82"/>
+<vertex x="185.5" y="1348.82" curve="90" />
 <vertex x="185.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2053,20 +2053,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="191.1" y="1358.82"/>
 <vertex x="192.25" y="1358.82"/>
-<vertex x="192.25" y="1348.82" curve="90" />
 <vertex x="192.25" y="1348.82"/>
+<vertex x="192.825" y="1348.82" curve="90" />
 <vertex x="192.825" y="1348.82"/>
 <vertex x="192.825" y="1318.82"/>
-<vertex x="192.25" y="1318.82" curve="90" />
 <vertex x="192.25" y="1318.82"/>
+<vertex x="192.25" y="1308.82" curve="90" />
 <vertex x="192.25" y="1308.82"/>
 <vertex x="191.1" y="1308.82"/>
-<vertex x="191.1" y="1318.82" curve="90" />
 <vertex x="191.1" y="1318.82"/>
+<vertex x="190.525" y="1318.82" curve="90" />
 <vertex x="190.525" y="1318.82"/>
 <vertex x="190.525" y="1348.82"/>
-<vertex x="191.1" y="1348.82" curve="90" />
 <vertex x="191.1" y="1348.82"/>
+<vertex x="191.1" y="1348.82" curve="90" />
 <vertex x="191.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2074,20 +2074,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="196.7" y="1358.82"/>
 <vertex x="197.85" y="1358.82"/>
-<vertex x="197.85" y="1348.82" curve="90" />
 <vertex x="197.85" y="1348.82"/>
+<vertex x="198.425" y="1348.82" curve="90" />
 <vertex x="198.425" y="1348.82"/>
 <vertex x="198.425" y="1318.82"/>
-<vertex x="197.85" y="1318.82" curve="90" />
 <vertex x="197.85" y="1318.82"/>
+<vertex x="197.85" y="1308.82" curve="90" />
 <vertex x="197.85" y="1308.82"/>
 <vertex x="196.7" y="1308.82"/>
-<vertex x="196.7" y="1318.82" curve="90" />
 <vertex x="196.7" y="1318.82"/>
+<vertex x="196.125" y="1318.82" curve="90" />
 <vertex x="196.125" y="1318.82"/>
 <vertex x="196.125" y="1348.82"/>
-<vertex x="196.7" y="1348.82" curve="90" />
 <vertex x="196.7" y="1348.82"/>
+<vertex x="196.7" y="1348.82" curve="90" />
 <vertex x="196.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2095,20 +2095,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="202.3" y="1358.82"/>
 <vertex x="203.45" y="1358.82"/>
-<vertex x="203.45" y="1348.82" curve="90" />
 <vertex x="203.45" y="1348.82"/>
+<vertex x="204.025" y="1348.82" curve="90" />
 <vertex x="204.025" y="1348.82"/>
 <vertex x="204.025" y="1318.82"/>
-<vertex x="203.45" y="1318.82" curve="90" />
 <vertex x="203.45" y="1318.82"/>
+<vertex x="203.45" y="1308.82" curve="90" />
 <vertex x="203.45" y="1308.82"/>
 <vertex x="202.3" y="1308.82"/>
-<vertex x="202.3" y="1318.82" curve="90" />
 <vertex x="202.3" y="1318.82"/>
+<vertex x="201.725" y="1318.82" curve="90" />
 <vertex x="201.725" y="1318.82"/>
 <vertex x="201.725" y="1348.82"/>
-<vertex x="202.3" y="1348.82" curve="90" />
 <vertex x="202.3" y="1348.82"/>
+<vertex x="202.3" y="1348.82" curve="90" />
 <vertex x="202.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2116,20 +2116,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="207.9" y="1358.82"/>
 <vertex x="209.05" y="1358.82"/>
-<vertex x="209.05" y="1348.82" curve="90" />
 <vertex x="209.05" y="1348.82"/>
+<vertex x="209.625" y="1348.82" curve="90" />
 <vertex x="209.625" y="1348.82"/>
 <vertex x="209.625" y="1318.82"/>
-<vertex x="209.05" y="1318.82" curve="90" />
 <vertex x="209.05" y="1318.82"/>
+<vertex x="209.05" y="1308.82" curve="90" />
 <vertex x="209.05" y="1308.82"/>
 <vertex x="207.9" y="1308.82"/>
-<vertex x="207.9" y="1318.82" curve="90" />
 <vertex x="207.9" y="1318.82"/>
+<vertex x="207.325" y="1318.82" curve="90" />
 <vertex x="207.325" y="1318.82"/>
 <vertex x="207.325" y="1348.82"/>
-<vertex x="207.9" y="1348.82" curve="90" />
 <vertex x="207.9" y="1348.82"/>
+<vertex x="207.9" y="1348.82" curve="90" />
 <vertex x="207.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2137,20 +2137,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="213.5" y="1358.82"/>
 <vertex x="214.65" y="1358.82"/>
-<vertex x="214.65" y="1348.82" curve="90" />
 <vertex x="214.65" y="1348.82"/>
+<vertex x="215.225" y="1348.82" curve="90" />
 <vertex x="215.225" y="1348.82"/>
 <vertex x="215.225" y="1318.82"/>
-<vertex x="214.65" y="1318.82" curve="90" />
 <vertex x="214.65" y="1318.82"/>
+<vertex x="214.65" y="1308.82" curve="90" />
 <vertex x="214.65" y="1308.82"/>
 <vertex x="213.5" y="1308.82"/>
-<vertex x="213.5" y="1318.82" curve="90" />
 <vertex x="213.5" y="1318.82"/>
+<vertex x="212.925" y="1318.82" curve="90" />
 <vertex x="212.925" y="1318.82"/>
 <vertex x="212.925" y="1348.82"/>
-<vertex x="213.5" y="1348.82" curve="90" />
 <vertex x="213.5" y="1348.82"/>
+<vertex x="213.5" y="1348.82" curve="90" />
 <vertex x="213.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2158,20 +2158,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="219.1" y="1358.82"/>
 <vertex x="220.25" y="1358.82"/>
-<vertex x="220.25" y="1348.82" curve="90" />
 <vertex x="220.25" y="1348.82"/>
+<vertex x="220.825" y="1348.82" curve="90" />
 <vertex x="220.825" y="1348.82"/>
 <vertex x="220.825" y="1318.82"/>
-<vertex x="220.25" y="1318.82" curve="90" />
 <vertex x="220.25" y="1318.82"/>
+<vertex x="220.25" y="1308.82" curve="90" />
 <vertex x="220.25" y="1308.82"/>
 <vertex x="219.1" y="1308.82"/>
-<vertex x="219.1" y="1318.82" curve="90" />
 <vertex x="219.1" y="1318.82"/>
+<vertex x="218.525" y="1318.82" curve="90" />
 <vertex x="218.525" y="1318.82"/>
 <vertex x="218.525" y="1348.82"/>
-<vertex x="219.1" y="1348.82" curve="90" />
 <vertex x="219.1" y="1348.82"/>
+<vertex x="219.1" y="1348.82" curve="90" />
 <vertex x="219.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2179,20 +2179,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="224.7" y="1358.82"/>
 <vertex x="225.85" y="1358.82"/>
-<vertex x="225.85" y="1348.82" curve="90" />
 <vertex x="225.85" y="1348.82"/>
+<vertex x="226.425" y="1348.82" curve="90" />
 <vertex x="226.425" y="1348.82"/>
 <vertex x="226.425" y="1318.82"/>
-<vertex x="225.85" y="1318.82" curve="90" />
 <vertex x="225.85" y="1318.82"/>
+<vertex x="225.85" y="1308.82" curve="90" />
 <vertex x="225.85" y="1308.82"/>
 <vertex x="224.7" y="1308.82"/>
-<vertex x="224.7" y="1318.82" curve="90" />
 <vertex x="224.7" y="1318.82"/>
+<vertex x="224.125" y="1318.82" curve="90" />
 <vertex x="224.125" y="1318.82"/>
 <vertex x="224.125" y="1348.82"/>
-<vertex x="224.7" y="1348.82" curve="90" />
 <vertex x="224.7" y="1348.82"/>
+<vertex x="224.7" y="1348.82" curve="90" />
 <vertex x="224.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2200,20 +2200,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="230.3" y="1358.82"/>
 <vertex x="231.45" y="1358.82"/>
-<vertex x="231.45" y="1348.82" curve="90" />
 <vertex x="231.45" y="1348.82"/>
+<vertex x="232.025" y="1348.82" curve="90" />
 <vertex x="232.025" y="1348.82"/>
 <vertex x="232.025" y="1318.82"/>
-<vertex x="231.45" y="1318.82" curve="90" />
 <vertex x="231.45" y="1318.82"/>
+<vertex x="231.45" y="1308.82" curve="90" />
 <vertex x="231.45" y="1308.82"/>
 <vertex x="230.3" y="1308.82"/>
-<vertex x="230.3" y="1318.82" curve="90" />
 <vertex x="230.3" y="1318.82"/>
+<vertex x="229.725" y="1318.82" curve="90" />
 <vertex x="229.725" y="1318.82"/>
 <vertex x="229.725" y="1348.82"/>
-<vertex x="230.3" y="1348.82" curve="90" />
 <vertex x="230.3" y="1348.82"/>
+<vertex x="230.3" y="1348.82" curve="90" />
 <vertex x="230.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2221,20 +2221,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="235.9" y="1358.82"/>
 <vertex x="237.05" y="1358.82"/>
-<vertex x="237.05" y="1348.82" curve="90" />
 <vertex x="237.05" y="1348.82"/>
+<vertex x="237.625" y="1348.82" curve="90" />
 <vertex x="237.625" y="1348.82"/>
 <vertex x="237.625" y="1318.82"/>
-<vertex x="237.05" y="1318.82" curve="90" />
 <vertex x="237.05" y="1318.82"/>
+<vertex x="237.05" y="1308.82" curve="90" />
 <vertex x="237.05" y="1308.82"/>
 <vertex x="235.9" y="1308.82"/>
-<vertex x="235.9" y="1318.82" curve="90" />
 <vertex x="235.9" y="1318.82"/>
+<vertex x="235.325" y="1318.82" curve="90" />
 <vertex x="235.325" y="1318.82"/>
 <vertex x="235.325" y="1348.82"/>
-<vertex x="235.9" y="1348.82" curve="90" />
 <vertex x="235.9" y="1348.82"/>
+<vertex x="235.9" y="1348.82" curve="90" />
 <vertex x="235.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2242,20 +2242,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="241.5" y="1358.82"/>
 <vertex x="242.65" y="1358.82"/>
-<vertex x="242.65" y="1348.82" curve="90" />
 <vertex x="242.65" y="1348.82"/>
+<vertex x="243.225" y="1348.82" curve="90" />
 <vertex x="243.225" y="1348.82"/>
 <vertex x="243.225" y="1318.82"/>
-<vertex x="242.65" y="1318.82" curve="90" />
 <vertex x="242.65" y="1318.82"/>
+<vertex x="242.65" y="1308.82" curve="90" />
 <vertex x="242.65" y="1308.82"/>
 <vertex x="241.5" y="1308.82"/>
-<vertex x="241.5" y="1318.82" curve="90" />
 <vertex x="241.5" y="1318.82"/>
+<vertex x="240.925" y="1318.82" curve="90" />
 <vertex x="240.925" y="1318.82"/>
 <vertex x="240.925" y="1348.82"/>
-<vertex x="241.5" y="1348.82" curve="90" />
 <vertex x="241.5" y="1348.82"/>
+<vertex x="241.5" y="1348.82" curve="90" />
 <vertex x="241.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2263,20 +2263,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="247.1" y="1358.82"/>
 <vertex x="248.25" y="1358.82"/>
-<vertex x="248.25" y="1348.82" curve="90" />
 <vertex x="248.25" y="1348.82"/>
+<vertex x="248.825" y="1348.82" curve="90" />
 <vertex x="248.825" y="1348.82"/>
 <vertex x="248.825" y="1318.82"/>
-<vertex x="248.25" y="1318.82" curve="90" />
 <vertex x="248.25" y="1318.82"/>
+<vertex x="248.25" y="1308.82" curve="90" />
 <vertex x="248.25" y="1308.82"/>
 <vertex x="247.1" y="1308.82"/>
-<vertex x="247.1" y="1318.82" curve="90" />
 <vertex x="247.1" y="1318.82"/>
+<vertex x="246.525" y="1318.82" curve="90" />
 <vertex x="246.525" y="1318.82"/>
 <vertex x="246.525" y="1348.82"/>
-<vertex x="247.1" y="1348.82" curve="90" />
 <vertex x="247.1" y="1348.82"/>
+<vertex x="247.1" y="1348.82" curve="90" />
 <vertex x="247.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2284,20 +2284,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="252.7" y="1358.82"/>
 <vertex x="253.85" y="1358.82"/>
-<vertex x="253.85" y="1348.82" curve="90" />
 <vertex x="253.85" y="1348.82"/>
+<vertex x="254.425" y="1348.82" curve="90" />
 <vertex x="254.425" y="1348.82"/>
 <vertex x="254.425" y="1318.82"/>
-<vertex x="253.85" y="1318.82" curve="90" />
 <vertex x="253.85" y="1318.82"/>
+<vertex x="253.85" y="1308.82" curve="90" />
 <vertex x="253.85" y="1308.82"/>
 <vertex x="252.7" y="1308.82"/>
-<vertex x="252.7" y="1318.82" curve="90" />
 <vertex x="252.7" y="1318.82"/>
+<vertex x="252.125" y="1318.82" curve="90" />
 <vertex x="252.125" y="1318.82"/>
 <vertex x="252.125" y="1348.82"/>
-<vertex x="252.7" y="1348.82" curve="90" />
 <vertex x="252.7" y="1348.82"/>
+<vertex x="252.7" y="1348.82" curve="90" />
 <vertex x="252.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2305,20 +2305,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="258.3" y="1358.82"/>
 <vertex x="259.45" y="1358.82"/>
-<vertex x="259.45" y="1348.82" curve="90" />
 <vertex x="259.45" y="1348.82"/>
+<vertex x="260.025" y="1348.82" curve="90" />
 <vertex x="260.025" y="1348.82"/>
 <vertex x="260.025" y="1318.82"/>
-<vertex x="259.45" y="1318.82" curve="90" />
 <vertex x="259.45" y="1318.82"/>
+<vertex x="259.45" y="1308.82" curve="90" />
 <vertex x="259.45" y="1308.82"/>
 <vertex x="258.3" y="1308.82"/>
-<vertex x="258.3" y="1318.82" curve="90" />
 <vertex x="258.3" y="1318.82"/>
+<vertex x="257.725" y="1318.82" curve="90" />
 <vertex x="257.725" y="1318.82"/>
 <vertex x="257.725" y="1348.82"/>
-<vertex x="258.3" y="1348.82" curve="90" />
 <vertex x="258.3" y="1348.82"/>
+<vertex x="258.3" y="1348.82" curve="90" />
 <vertex x="258.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2326,20 +2326,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="263.9" y="1358.82"/>
 <vertex x="265.05" y="1358.82"/>
-<vertex x="265.05" y="1348.82" curve="90" />
 <vertex x="265.05" y="1348.82"/>
+<vertex x="265.625" y="1348.82" curve="90" />
 <vertex x="265.625" y="1348.82"/>
 <vertex x="265.625" y="1318.82"/>
-<vertex x="265.05" y="1318.82" curve="90" />
 <vertex x="265.05" y="1318.82"/>
+<vertex x="265.05" y="1308.82" curve="90" />
 <vertex x="265.05" y="1308.82"/>
 <vertex x="263.9" y="1308.82"/>
-<vertex x="263.9" y="1318.82" curve="90" />
 <vertex x="263.9" y="1318.82"/>
+<vertex x="263.325" y="1318.82" curve="90" />
 <vertex x="263.325" y="1318.82"/>
 <vertex x="263.325" y="1348.82"/>
-<vertex x="263.9" y="1348.82" curve="90" />
 <vertex x="263.9" y="1348.82"/>
+<vertex x="263.9" y="1348.82" curve="90" />
 <vertex x="263.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2347,20 +2347,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="269.5" y="1358.82"/>
 <vertex x="270.65" y="1358.82"/>
-<vertex x="270.65" y="1348.82" curve="90" />
 <vertex x="270.65" y="1348.82"/>
+<vertex x="271.225" y="1348.82" curve="90" />
 <vertex x="271.225" y="1348.82"/>
 <vertex x="271.225" y="1318.82"/>
-<vertex x="270.65" y="1318.82" curve="90" />
 <vertex x="270.65" y="1318.82"/>
+<vertex x="270.65" y="1308.82" curve="90" />
 <vertex x="270.65" y="1308.82"/>
 <vertex x="269.5" y="1308.82"/>
-<vertex x="269.5" y="1318.82" curve="90" />
 <vertex x="269.5" y="1318.82"/>
+<vertex x="268.925" y="1318.82" curve="90" />
 <vertex x="268.925" y="1318.82"/>
 <vertex x="268.925" y="1348.82"/>
-<vertex x="269.5" y="1348.82" curve="90" />
 <vertex x="269.5" y="1348.82"/>
+<vertex x="269.5" y="1348.82" curve="90" />
 <vertex x="269.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2368,20 +2368,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="275.1" y="1358.82"/>
 <vertex x="276.25" y="1358.82"/>
-<vertex x="276.25" y="1348.82" curve="90" />
 <vertex x="276.25" y="1348.82"/>
+<vertex x="276.825" y="1348.82" curve="90" />
 <vertex x="276.825" y="1348.82"/>
 <vertex x="276.825" y="1318.82"/>
-<vertex x="276.25" y="1318.82" curve="90" />
 <vertex x="276.25" y="1318.82"/>
+<vertex x="276.25" y="1308.82" curve="90" />
 <vertex x="276.25" y="1308.82"/>
 <vertex x="275.1" y="1308.82"/>
-<vertex x="275.1" y="1318.82" curve="90" />
 <vertex x="275.1" y="1318.82"/>
+<vertex x="274.525" y="1318.82" curve="90" />
 <vertex x="274.525" y="1318.82"/>
 <vertex x="274.525" y="1348.82"/>
-<vertex x="275.1" y="1348.82" curve="90" />
 <vertex x="275.1" y="1348.82"/>
+<vertex x="275.1" y="1348.82" curve="90" />
 <vertex x="275.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2389,20 +2389,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="280.7" y="1358.82"/>
 <vertex x="281.85" y="1358.82"/>
-<vertex x="281.85" y="1348.82" curve="90" />
 <vertex x="281.85" y="1348.82"/>
+<vertex x="282.425" y="1348.82" curve="90" />
 <vertex x="282.425" y="1348.82"/>
 <vertex x="282.425" y="1318.82"/>
-<vertex x="281.85" y="1318.82" curve="90" />
 <vertex x="281.85" y="1318.82"/>
+<vertex x="281.85" y="1308.82" curve="90" />
 <vertex x="281.85" y="1308.82"/>
 <vertex x="280.7" y="1308.82"/>
-<vertex x="280.7" y="1318.82" curve="90" />
 <vertex x="280.7" y="1318.82"/>
+<vertex x="280.125" y="1318.82" curve="90" />
 <vertex x="280.125" y="1318.82"/>
 <vertex x="280.125" y="1348.82"/>
-<vertex x="280.7" y="1348.82" curve="90" />
 <vertex x="280.7" y="1348.82"/>
+<vertex x="280.7" y="1348.82" curve="90" />
 <vertex x="280.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2410,20 +2410,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="286.3" y="1358.82"/>
 <vertex x="287.45" y="1358.82"/>
-<vertex x="287.45" y="1348.82" curve="90" />
 <vertex x="287.45" y="1348.82"/>
+<vertex x="288.025" y="1348.82" curve="90" />
 <vertex x="288.025" y="1348.82"/>
 <vertex x="288.025" y="1318.82"/>
-<vertex x="287.45" y="1318.82" curve="90" />
 <vertex x="287.45" y="1318.82"/>
+<vertex x="287.45" y="1308.82" curve="90" />
 <vertex x="287.45" y="1308.82"/>
 <vertex x="286.3" y="1308.82"/>
-<vertex x="286.3" y="1318.82" curve="90" />
 <vertex x="286.3" y="1318.82"/>
+<vertex x="285.725" y="1318.82" curve="90" />
 <vertex x="285.725" y="1318.82"/>
 <vertex x="285.725" y="1348.82"/>
-<vertex x="286.3" y="1348.82" curve="90" />
 <vertex x="286.3" y="1348.82"/>
+<vertex x="286.3" y="1348.82" curve="90" />
 <vertex x="286.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2431,20 +2431,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="291.9" y="1358.82"/>
 <vertex x="293.05" y="1358.82"/>
-<vertex x="293.05" y="1348.82" curve="90" />
 <vertex x="293.05" y="1348.82"/>
+<vertex x="293.625" y="1348.82" curve="90" />
 <vertex x="293.625" y="1348.82"/>
 <vertex x="293.625" y="1318.82"/>
-<vertex x="293.05" y="1318.82" curve="90" />
 <vertex x="293.05" y="1318.82"/>
+<vertex x="293.05" y="1308.82" curve="90" />
 <vertex x="293.05" y="1308.82"/>
 <vertex x="291.9" y="1308.82"/>
-<vertex x="291.9" y="1318.82" curve="90" />
 <vertex x="291.9" y="1318.82"/>
+<vertex x="291.325" y="1318.82" curve="90" />
 <vertex x="291.325" y="1318.82"/>
 <vertex x="291.325" y="1348.82"/>
-<vertex x="291.9" y="1348.82" curve="90" />
 <vertex x="291.9" y="1348.82"/>
+<vertex x="291.9" y="1348.82" curve="90" />
 <vertex x="291.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2452,20 +2452,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="297.5" y="1358.82"/>
 <vertex x="298.65" y="1358.82"/>
-<vertex x="298.65" y="1348.82" curve="90" />
 <vertex x="298.65" y="1348.82"/>
+<vertex x="299.225" y="1348.82" curve="90" />
 <vertex x="299.225" y="1348.82"/>
 <vertex x="299.225" y="1318.82"/>
-<vertex x="298.65" y="1318.82" curve="90" />
 <vertex x="298.65" y="1318.82"/>
+<vertex x="298.65" y="1308.82" curve="90" />
 <vertex x="298.65" y="1308.82"/>
 <vertex x="297.5" y="1308.82"/>
-<vertex x="297.5" y="1318.82" curve="90" />
 <vertex x="297.5" y="1318.82"/>
+<vertex x="296.925" y="1318.82" curve="90" />
 <vertex x="296.925" y="1318.82"/>
 <vertex x="296.925" y="1348.82"/>
-<vertex x="297.5" y="1348.82" curve="90" />
 <vertex x="297.5" y="1348.82"/>
+<vertex x="297.5" y="1348.82" curve="90" />
 <vertex x="297.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2473,20 +2473,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="303.1" y="1358.82"/>
 <vertex x="304.25" y="1358.82"/>
-<vertex x="304.25" y="1348.82" curve="90" />
 <vertex x="304.25" y="1348.82"/>
+<vertex x="304.825" y="1348.82" curve="90" />
 <vertex x="304.825" y="1348.82"/>
 <vertex x="304.825" y="1318.82"/>
-<vertex x="304.25" y="1318.82" curve="90" />
 <vertex x="304.25" y="1318.82"/>
+<vertex x="304.25" y="1308.82" curve="90" />
 <vertex x="304.25" y="1308.82"/>
 <vertex x="303.1" y="1308.82"/>
-<vertex x="303.1" y="1318.82" curve="90" />
 <vertex x="303.1" y="1318.82"/>
+<vertex x="302.525" y="1318.82" curve="90" />
 <vertex x="302.525" y="1318.82"/>
 <vertex x="302.525" y="1348.82"/>
-<vertex x="303.1" y="1348.82" curve="90" />
 <vertex x="303.1" y="1348.82"/>
+<vertex x="303.1" y="1348.82" curve="90" />
 <vertex x="303.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2494,20 +2494,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="308.7" y="1358.82"/>
 <vertex x="309.85" y="1358.82"/>
-<vertex x="309.85" y="1348.82" curve="90" />
 <vertex x="309.85" y="1348.82"/>
+<vertex x="310.425" y="1348.82" curve="90" />
 <vertex x="310.425" y="1348.82"/>
 <vertex x="310.425" y="1318.82"/>
-<vertex x="309.85" y="1318.82" curve="90" />
 <vertex x="309.85" y="1318.82"/>
+<vertex x="309.85" y="1308.82" curve="90" />
 <vertex x="309.85" y="1308.82"/>
 <vertex x="308.7" y="1308.82"/>
-<vertex x="308.7" y="1318.82" curve="90" />
 <vertex x="308.7" y="1318.82"/>
+<vertex x="308.125" y="1318.82" curve="90" />
 <vertex x="308.125" y="1318.82"/>
 <vertex x="308.125" y="1348.82"/>
-<vertex x="308.7" y="1348.82" curve="90" />
 <vertex x="308.7" y="1348.82"/>
+<vertex x="308.7" y="1348.82" curve="90" />
 <vertex x="308.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2515,20 +2515,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="314.3" y="1358.82"/>
 <vertex x="315.45" y="1358.82"/>
-<vertex x="315.45" y="1348.82" curve="90" />
 <vertex x="315.45" y="1348.82"/>
+<vertex x="316.025" y="1348.82" curve="90" />
 <vertex x="316.025" y="1348.82"/>
 <vertex x="316.025" y="1318.82"/>
-<vertex x="315.45" y="1318.82" curve="90" />
 <vertex x="315.45" y="1318.82"/>
+<vertex x="315.45" y="1308.82" curve="90" />
 <vertex x="315.45" y="1308.82"/>
 <vertex x="314.3" y="1308.82"/>
-<vertex x="314.3" y="1318.82" curve="90" />
 <vertex x="314.3" y="1318.82"/>
+<vertex x="313.725" y="1318.82" curve="90" />
 <vertex x="313.725" y="1318.82"/>
 <vertex x="313.725" y="1348.82"/>
-<vertex x="314.3" y="1348.82" curve="90" />
 <vertex x="314.3" y="1348.82"/>
+<vertex x="314.3" y="1348.82" curve="90" />
 <vertex x="314.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2536,20 +2536,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="319.9" y="1358.82"/>
 <vertex x="321.05" y="1358.82"/>
-<vertex x="321.05" y="1348.82" curve="90" />
 <vertex x="321.05" y="1348.82"/>
+<vertex x="321.625" y="1348.82" curve="90" />
 <vertex x="321.625" y="1348.82"/>
 <vertex x="321.625" y="1318.82"/>
-<vertex x="321.05" y="1318.82" curve="90" />
 <vertex x="321.05" y="1318.82"/>
+<vertex x="321.05" y="1308.82" curve="90" />
 <vertex x="321.05" y="1308.82"/>
 <vertex x="319.9" y="1308.82"/>
-<vertex x="319.9" y="1318.82" curve="90" />
 <vertex x="319.9" y="1318.82"/>
+<vertex x="319.325" y="1318.82" curve="90" />
 <vertex x="319.325" y="1318.82"/>
 <vertex x="319.325" y="1348.82"/>
-<vertex x="319.9" y="1348.82" curve="90" />
 <vertex x="319.9" y="1348.82"/>
+<vertex x="319.9" y="1348.82" curve="90" />
 <vertex x="319.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2557,20 +2557,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="325.5" y="1358.82"/>
 <vertex x="326.65" y="1358.82"/>
-<vertex x="326.65" y="1348.82" curve="90" />
 <vertex x="326.65" y="1348.82"/>
+<vertex x="327.225" y="1348.82" curve="90" />
 <vertex x="327.225" y="1348.82"/>
 <vertex x="327.225" y="1318.82"/>
-<vertex x="326.65" y="1318.82" curve="90" />
 <vertex x="326.65" y="1318.82"/>
+<vertex x="326.65" y="1308.82" curve="90" />
 <vertex x="326.65" y="1308.82"/>
 <vertex x="325.5" y="1308.82"/>
-<vertex x="325.5" y="1318.82" curve="90" />
 <vertex x="325.5" y="1318.82"/>
+<vertex x="324.925" y="1318.82" curve="90" />
 <vertex x="324.925" y="1318.82"/>
 <vertex x="324.925" y="1348.82"/>
-<vertex x="325.5" y="1348.82" curve="90" />
 <vertex x="325.5" y="1348.82"/>
+<vertex x="325.5" y="1348.82" curve="90" />
 <vertex x="325.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2578,20 +2578,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="331.1" y="1358.82"/>
 <vertex x="332.25" y="1358.82"/>
-<vertex x="332.25" y="1348.82" curve="90" />
 <vertex x="332.25" y="1348.82"/>
+<vertex x="332.825" y="1348.82" curve="90" />
 <vertex x="332.825" y="1348.82"/>
 <vertex x="332.825" y="1318.82"/>
-<vertex x="332.25" y="1318.82" curve="90" />
 <vertex x="332.25" y="1318.82"/>
+<vertex x="332.25" y="1308.82" curve="90" />
 <vertex x="332.25" y="1308.82"/>
 <vertex x="331.1" y="1308.82"/>
-<vertex x="331.1" y="1318.82" curve="90" />
 <vertex x="331.1" y="1318.82"/>
+<vertex x="330.525" y="1318.82" curve="90" />
 <vertex x="330.525" y="1318.82"/>
 <vertex x="330.525" y="1348.82"/>
-<vertex x="331.1" y="1348.82" curve="90" />
 <vertex x="331.1" y="1348.82"/>
+<vertex x="331.1" y="1348.82" curve="90" />
 <vertex x="331.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2599,20 +2599,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="336.7" y="1358.82"/>
 <vertex x="337.85" y="1358.82"/>
-<vertex x="337.85" y="1348.82" curve="90" />
 <vertex x="337.85" y="1348.82"/>
+<vertex x="338.425" y="1348.82" curve="90" />
 <vertex x="338.425" y="1348.82"/>
 <vertex x="338.425" y="1318.82"/>
-<vertex x="337.85" y="1318.82" curve="90" />
 <vertex x="337.85" y="1318.82"/>
+<vertex x="337.85" y="1308.82" curve="90" />
 <vertex x="337.85" y="1308.82"/>
 <vertex x="336.7" y="1308.82"/>
-<vertex x="336.7" y="1318.82" curve="90" />
 <vertex x="336.7" y="1318.82"/>
+<vertex x="336.125" y="1318.82" curve="90" />
 <vertex x="336.125" y="1318.82"/>
 <vertex x="336.125" y="1348.82"/>
-<vertex x="336.7" y="1348.82" curve="90" />
 <vertex x="336.7" y="1348.82"/>
+<vertex x="336.7" y="1348.82" curve="90" />
 <vertex x="336.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2620,20 +2620,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="342.3" y="1358.82"/>
 <vertex x="343.45" y="1358.82"/>
-<vertex x="343.45" y="1348.82" curve="90" />
 <vertex x="343.45" y="1348.82"/>
+<vertex x="344.025" y="1348.82" curve="90" />
 <vertex x="344.025" y="1348.82"/>
 <vertex x="344.025" y="1318.82"/>
-<vertex x="343.45" y="1318.82" curve="90" />
 <vertex x="343.45" y="1318.82"/>
+<vertex x="343.45" y="1308.82" curve="90" />
 <vertex x="343.45" y="1308.82"/>
 <vertex x="342.3" y="1308.82"/>
-<vertex x="342.3" y="1318.82" curve="90" />
 <vertex x="342.3" y="1318.82"/>
+<vertex x="341.725" y="1318.82" curve="90" />
 <vertex x="341.725" y="1318.82"/>
 <vertex x="341.725" y="1348.82"/>
-<vertex x="342.3" y="1348.82" curve="90" />
 <vertex x="342.3" y="1348.82"/>
+<vertex x="342.3" y="1348.82" curve="90" />
 <vertex x="342.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2641,20 +2641,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="347.9" y="1358.82"/>
 <vertex x="349.05" y="1358.82"/>
-<vertex x="349.05" y="1348.82" curve="90" />
 <vertex x="349.05" y="1348.82"/>
+<vertex x="349.625" y="1348.82" curve="90" />
 <vertex x="349.625" y="1348.82"/>
 <vertex x="349.625" y="1318.82"/>
-<vertex x="349.05" y="1318.82" curve="90" />
 <vertex x="349.05" y="1318.82"/>
+<vertex x="349.05" y="1308.82" curve="90" />
 <vertex x="349.05" y="1308.82"/>
 <vertex x="347.9" y="1308.82"/>
-<vertex x="347.9" y="1318.82" curve="90" />
 <vertex x="347.9" y="1318.82"/>
+<vertex x="347.325" y="1318.82" curve="90" />
 <vertex x="347.325" y="1318.82"/>
 <vertex x="347.325" y="1348.82"/>
-<vertex x="347.9" y="1348.82" curve="90" />
 <vertex x="347.9" y="1348.82"/>
+<vertex x="347.9" y="1348.82" curve="90" />
 <vertex x="347.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2662,20 +2662,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="353.5" y="1358.82"/>
 <vertex x="354.65" y="1358.82"/>
-<vertex x="354.65" y="1348.82" curve="90" />
 <vertex x="354.65" y="1348.82"/>
+<vertex x="355.225" y="1348.82" curve="90" />
 <vertex x="355.225" y="1348.82"/>
 <vertex x="355.225" y="1318.82"/>
-<vertex x="354.65" y="1318.82" curve="90" />
 <vertex x="354.65" y="1318.82"/>
+<vertex x="354.65" y="1308.82" curve="90" />
 <vertex x="354.65" y="1308.82"/>
 <vertex x="353.5" y="1308.82"/>
-<vertex x="353.5" y="1318.82" curve="90" />
 <vertex x="353.5" y="1318.82"/>
+<vertex x="352.925" y="1318.82" curve="90" />
 <vertex x="352.925" y="1318.82"/>
 <vertex x="352.925" y="1348.82"/>
-<vertex x="353.5" y="1348.82" curve="90" />
 <vertex x="353.5" y="1348.82"/>
+<vertex x="353.5" y="1348.82" curve="90" />
 <vertex x="353.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2683,20 +2683,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="359.1" y="1358.82"/>
 <vertex x="360.25" y="1358.82"/>
-<vertex x="360.25" y="1348.82" curve="90" />
 <vertex x="360.25" y="1348.82"/>
+<vertex x="360.825" y="1348.82" curve="90" />
 <vertex x="360.825" y="1348.82"/>
 <vertex x="360.825" y="1318.82"/>
-<vertex x="360.25" y="1318.82" curve="90" />
 <vertex x="360.25" y="1318.82"/>
+<vertex x="360.25" y="1308.82" curve="90" />
 <vertex x="360.25" y="1308.82"/>
 <vertex x="359.1" y="1308.82"/>
-<vertex x="359.1" y="1318.82" curve="90" />
 <vertex x="359.1" y="1318.82"/>
+<vertex x="358.525" y="1318.82" curve="90" />
 <vertex x="358.525" y="1318.82"/>
 <vertex x="358.525" y="1348.82"/>
-<vertex x="359.1" y="1348.82" curve="90" />
 <vertex x="359.1" y="1348.82"/>
+<vertex x="359.1" y="1348.82" curve="90" />
 <vertex x="359.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2704,20 +2704,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="364.7" y="1358.82"/>
 <vertex x="365.85" y="1358.82"/>
-<vertex x="365.85" y="1348.82" curve="90" />
 <vertex x="365.85" y="1348.82"/>
+<vertex x="366.425" y="1348.82" curve="90" />
 <vertex x="366.425" y="1348.82"/>
 <vertex x="366.425" y="1318.82"/>
-<vertex x="365.85" y="1318.82" curve="90" />
 <vertex x="365.85" y="1318.82"/>
+<vertex x="365.85" y="1308.82" curve="90" />
 <vertex x="365.85" y="1308.82"/>
 <vertex x="364.7" y="1308.82"/>
-<vertex x="364.7" y="1318.82" curve="90" />
 <vertex x="364.7" y="1318.82"/>
+<vertex x="364.125" y="1318.82" curve="90" />
 <vertex x="364.125" y="1318.82"/>
 <vertex x="364.125" y="1348.82"/>
-<vertex x="364.7" y="1348.82" curve="90" />
 <vertex x="364.7" y="1348.82"/>
+<vertex x="364.7" y="1348.82" curve="90" />
 <vertex x="364.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2725,20 +2725,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="370.3" y="1358.82"/>
 <vertex x="371.45" y="1358.82"/>
-<vertex x="371.45" y="1348.82" curve="90" />
 <vertex x="371.45" y="1348.82"/>
+<vertex x="372.025" y="1348.82" curve="90" />
 <vertex x="372.025" y="1348.82"/>
 <vertex x="372.025" y="1318.82"/>
-<vertex x="371.45" y="1318.82" curve="90" />
 <vertex x="371.45" y="1318.82"/>
+<vertex x="371.45" y="1308.82" curve="90" />
 <vertex x="371.45" y="1308.82"/>
 <vertex x="370.3" y="1308.82"/>
-<vertex x="370.3" y="1318.82" curve="90" />
 <vertex x="370.3" y="1318.82"/>
+<vertex x="369.725" y="1318.82" curve="90" />
 <vertex x="369.725" y="1318.82"/>
 <vertex x="369.725" y="1348.82"/>
-<vertex x="370.3" y="1348.82" curve="90" />
 <vertex x="370.3" y="1348.82"/>
+<vertex x="370.3" y="1348.82" curve="90" />
 <vertex x="370.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2746,20 +2746,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="375.9" y="1358.82"/>
 <vertex x="377.05" y="1358.82"/>
-<vertex x="377.05" y="1348.82" curve="90" />
 <vertex x="377.05" y="1348.82"/>
+<vertex x="377.625" y="1348.82" curve="90" />
 <vertex x="377.625" y="1348.82"/>
 <vertex x="377.625" y="1318.82"/>
-<vertex x="377.05" y="1318.82" curve="90" />
 <vertex x="377.05" y="1318.82"/>
+<vertex x="377.05" y="1308.82" curve="90" />
 <vertex x="377.05" y="1308.82"/>
 <vertex x="375.9" y="1308.82"/>
-<vertex x="375.9" y="1318.82" curve="90" />
 <vertex x="375.9" y="1318.82"/>
+<vertex x="375.325" y="1318.82" curve="90" />
 <vertex x="375.325" y="1318.82"/>
 <vertex x="375.325" y="1348.82"/>
-<vertex x="375.9" y="1348.82" curve="90" />
 <vertex x="375.9" y="1348.82"/>
+<vertex x="375.9" y="1348.82" curve="90" />
 <vertex x="375.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2767,20 +2767,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="381.5" y="1358.82"/>
 <vertex x="382.65" y="1358.82"/>
-<vertex x="382.65" y="1348.82" curve="90" />
 <vertex x="382.65" y="1348.82"/>
+<vertex x="383.225" y="1348.82" curve="90" />
 <vertex x="383.225" y="1348.82"/>
 <vertex x="383.225" y="1318.82"/>
-<vertex x="382.65" y="1318.82" curve="90" />
 <vertex x="382.65" y="1318.82"/>
+<vertex x="382.65" y="1308.82" curve="90" />
 <vertex x="382.65" y="1308.82"/>
 <vertex x="381.5" y="1308.82"/>
-<vertex x="381.5" y="1318.82" curve="90" />
 <vertex x="381.5" y="1318.82"/>
+<vertex x="380.925" y="1318.82" curve="90" />
 <vertex x="380.925" y="1318.82"/>
 <vertex x="380.925" y="1348.82"/>
-<vertex x="381.5" y="1348.82" curve="90" />
 <vertex x="381.5" y="1348.82"/>
+<vertex x="381.5" y="1348.82" curve="90" />
 <vertex x="381.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2788,20 +2788,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="387.1" y="1358.82"/>
 <vertex x="388.25" y="1358.82"/>
-<vertex x="388.25" y="1348.82" curve="90" />
 <vertex x="388.25" y="1348.82"/>
+<vertex x="388.825" y="1348.82" curve="90" />
 <vertex x="388.825" y="1348.82"/>
 <vertex x="388.825" y="1318.82"/>
-<vertex x="388.25" y="1318.82" curve="90" />
 <vertex x="388.25" y="1318.82"/>
+<vertex x="388.25" y="1308.82" curve="90" />
 <vertex x="388.25" y="1308.82"/>
 <vertex x="387.1" y="1308.82"/>
-<vertex x="387.1" y="1318.82" curve="90" />
 <vertex x="387.1" y="1318.82"/>
+<vertex x="386.525" y="1318.82" curve="90" />
 <vertex x="386.525" y="1318.82"/>
 <vertex x="386.525" y="1348.82"/>
-<vertex x="387.1" y="1348.82" curve="90" />
 <vertex x="387.1" y="1348.82"/>
+<vertex x="387.1" y="1348.82" curve="90" />
 <vertex x="387.1" y="1348.82"/>
 </polygon>
 </signal>
@@ -2809,20 +2809,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="392.7" y="1358.82"/>
 <vertex x="393.85" y="1358.82"/>
-<vertex x="393.85" y="1348.82" curve="90" />
 <vertex x="393.85" y="1348.82"/>
+<vertex x="394.425" y="1348.82" curve="90" />
 <vertex x="394.425" y="1348.82"/>
 <vertex x="394.425" y="1318.82"/>
-<vertex x="393.85" y="1318.82" curve="90" />
 <vertex x="393.85" y="1318.82"/>
+<vertex x="393.85" y="1308.82" curve="90" />
 <vertex x="393.85" y="1308.82"/>
 <vertex x="392.7" y="1308.82"/>
-<vertex x="392.7" y="1318.82" curve="90" />
 <vertex x="392.7" y="1318.82"/>
+<vertex x="392.125" y="1318.82" curve="90" />
 <vertex x="392.125" y="1318.82"/>
 <vertex x="392.125" y="1348.82"/>
-<vertex x="392.7" y="1348.82" curve="90" />
 <vertex x="392.7" y="1348.82"/>
+<vertex x="392.7" y="1348.82" curve="90" />
 <vertex x="392.7" y="1348.82"/>
 </polygon>
 </signal>
@@ -2830,20 +2830,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="398.3" y="1358.82"/>
 <vertex x="399.45" y="1358.82"/>
-<vertex x="399.45" y="1348.82" curve="90" />
 <vertex x="399.45" y="1348.82"/>
+<vertex x="400.025" y="1348.82" curve="90" />
 <vertex x="400.025" y="1348.82"/>
 <vertex x="400.025" y="1318.82"/>
-<vertex x="399.45" y="1318.82" curve="90" />
 <vertex x="399.45" y="1318.82"/>
+<vertex x="399.45" y="1308.82" curve="90" />
 <vertex x="399.45" y="1308.82"/>
 <vertex x="398.3" y="1308.82"/>
-<vertex x="398.3" y="1318.82" curve="90" />
 <vertex x="398.3" y="1318.82"/>
+<vertex x="397.725" y="1318.82" curve="90" />
 <vertex x="397.725" y="1318.82"/>
 <vertex x="397.725" y="1348.82"/>
-<vertex x="398.3" y="1348.82" curve="90" />
 <vertex x="398.3" y="1348.82"/>
+<vertex x="398.3" y="1348.82" curve="90" />
 <vertex x="398.3" y="1348.82"/>
 </polygon>
 </signal>
@@ -2851,20 +2851,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="403.9" y="1358.82"/>
 <vertex x="405.05" y="1358.82"/>
-<vertex x="405.05" y="1348.82" curve="90" />
 <vertex x="405.05" y="1348.82"/>
+<vertex x="405.625" y="1348.82" curve="90" />
 <vertex x="405.625" y="1348.82"/>
 <vertex x="405.625" y="1318.82"/>
-<vertex x="405.05" y="1318.82" curve="90" />
 <vertex x="405.05" y="1318.82"/>
+<vertex x="405.05" y="1308.82" curve="90" />
 <vertex x="405.05" y="1308.82"/>
 <vertex x="403.9" y="1308.82"/>
-<vertex x="403.9" y="1318.82" curve="90" />
 <vertex x="403.9" y="1318.82"/>
+<vertex x="403.325" y="1318.82" curve="90" />
 <vertex x="403.325" y="1318.82"/>
 <vertex x="403.325" y="1348.82"/>
-<vertex x="403.9" y="1348.82" curve="90" />
 <vertex x="403.9" y="1348.82"/>
+<vertex x="403.9" y="1348.82" curve="90" />
 <vertex x="403.9" y="1348.82"/>
 </polygon>
 </signal>
@@ -2872,20 +2872,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="409.5" y="1358.82"/>
 <vertex x="410.65" y="1358.82"/>
-<vertex x="410.65" y="1348.82" curve="90" />
 <vertex x="410.65" y="1348.82"/>
+<vertex x="411.225" y="1348.82" curve="90" />
 <vertex x="411.225" y="1348.82"/>
 <vertex x="411.225" y="1318.82"/>
-<vertex x="410.65" y="1318.82" curve="90" />
 <vertex x="410.65" y="1318.82"/>
+<vertex x="410.65" y="1308.82" curve="90" />
 <vertex x="410.65" y="1308.82"/>
 <vertex x="409.5" y="1308.82"/>
-<vertex x="409.5" y="1318.82" curve="90" />
 <vertex x="409.5" y="1318.82"/>
+<vertex x="408.925" y="1318.82" curve="90" />
 <vertex x="408.925" y="1318.82"/>
 <vertex x="408.925" y="1348.82"/>
-<vertex x="409.5" y="1348.82" curve="90" />
 <vertex x="409.5" y="1348.82"/>
+<vertex x="409.5" y="1348.82" curve="90" />
 <vertex x="409.5" y="1348.82"/>
 </polygon>
 </signal>
@@ -2893,20 +2893,20 @@ design rules under a new name.</description>
 <polygon width="0.4" layer="1" >
 <vertex x="415.1" y="1358.82"/>
 <vertex x="416.25" y="1358.82"/>
-<vertex x="416.25" y="1348.82" curve="90" />
 <vertex x="416.25" y="1348.82"/>
+<vertex x="416.825" y="1348.82" curve="90" />
 <vertex x="416.825" y="1348.82"/>
 <vertex x="416.825" y="1318.82"/>
-<vertex x="416.25" y="1318.82" curve="90" />
 <vertex x="416.25" y="1318.82"/>
+<vertex x="416.25" y="1308.82" curve="90" />
 <vertex x="416.25" y="1308.82"/>
 <vertex x="415.1" y="1308.82"/>
-<vertex x="415.1" y="1318.82" curve="90" />
 <vertex x="415.1" y="1318.82"/>
+<vertex x="414.525" y="1318.82" curve="90" />
 <vertex x="414.525" y="1318.82"/>
 <vertex x="414.525" y="1348.82"/>
-<vertex x="415.1" y="1348.82" curve="90" />
 <vertex x="415.1" y="1348.82"/>
+<vertex x="415.1" y="1348.82" curve="90" />
 <vertex x="415.1" y="1348.82"/>
 </polygon>
 </signal>
