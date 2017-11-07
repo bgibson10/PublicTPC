@@ -41,7 +41,6 @@ void InsertFile(const char *source)
 
 
 
-
 void MakePlain() {
   /*
   cout << "<plain>" << endl;
@@ -110,7 +109,7 @@ void MakeCoverStripes(int i)
 {
   double dx[12] = {0};
   double dy[12] = {0};
-  int curve[12] = {0,0,1,0,0,1,0,0,1,0,0,1};
+  int curve[12] = {0,1,0,0,1,0,0,1,0,0,1,0};
 
   dx[0]=      dx_coverTop;                // oo
   dy[1]=     -(dy_coverShort);            // oi
@@ -124,7 +123,7 @@ void MakeCoverStripes(int i)
   dx[8]=     -(dx_coverShortWidth);            // io
   dy[9]=      dy_coverLong;               // oo
   dx[10]=    dx_coverShortWidth;              // oi
-  // dy[11]=     dy_coverShort;              // io 
+  dy[11]=     dy_coverShort;              // io 
 
   double x = x_origin_A + 0.5*PolygonWidth; //may need to adjust with one dx_coverShort
   double y = y_origin_A - 0.5*PolygonWidth;
@@ -142,10 +141,10 @@ void MakeCoverStripes(int i)
 	  cout << "<vertex x=\"" << x << "\" y=\"" << y << "\"/>" << endl;
 	}
       else {
-	double cx1 = x - (dx[j])*InnerRadius;
-	double cy1 = y - (dy[j])*InnerRadius;
-	double cx2 = x + (dx[j+1])*InnerRadius;
-	double cy2 = y + (dy[j+1])*InnerRadius;
+	double cx1 = x - (dx[j])*(.5*InnerRadius);
+	double cy1 = y - (dy[j])*(.5*InnerRadius);
+	double cx2 = x + (dx[j+1])*(.5*InnerRadius);
+	double cy2 = y + (dy[j+1])*(.5*InnerRadius);
 	  cout << "<vertex x=\"" << cx1  << "\" y=\"" << cy1  << "\" curve=\"90\" />" << endl;
 	  cout << "<vertex x=\"" << cx2  << "\" y=\"" << cy2  << "\"/>" << endl;
       }
@@ -156,39 +155,3 @@ void MakeCoverStripes(int i)
 }
 
 
-/*
-  
-  cout << "<plain>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X)
-                                                           << "\" y2=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X)
-                                                           << "\" y2=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_RIGHT_X) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X )
-                                                           << "\" y2=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-  cout << "<wire x1=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X ) << "\" y1=\"" << BOARD_TOP_Y - (BOARD_TOP_Y) << "\" x2=\"" << BOARD_RIGHT_X - (BOARD_LEFT_X )
-                                                           << "\" y2=\"" << BOARD_TOP_Y - (BOARD_BOT_Y) << "\" width=\"0\" layer=\"20\"/>" << endl;
-
-  double x1 = BOARD_LEFT_X;
-  double x2 = BOARD_RIGHT_X;
-  double y1 = BOARD_BOT_Y;
-  double y2 = dx_gap + dy_space;
-  cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-
-  y1 = y2 + dy_inside + dy_footprint + dy_gap;
-  y2 = y1 + dy_sep;
-  cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-
-  y1 = y2 + dy_inside + dy_footprint + dy_gap;
-  y2 = y1 + dy_sep;
-  cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-
-  y1 = y2 + dy_inside + dy_footprint + dy_gap;
-  y2 = y1 + dy_sep;
-  cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-
-  y1 = y2 + dy_inside + dy_footprint + dy_gap;
-  y2 = BOARD_TOP_Y;
-  cout << "<rectangle x1=\"" <<x1<< "\" y1=\"" <<y1<< "\" x2=\"" <<x2<< "\" y2=\"" <<y2<< "\" layer=\"29\"/>" << endl;
-
-  cout << "</plain>" << endl;
- */
