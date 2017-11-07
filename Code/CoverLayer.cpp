@@ -109,7 +109,7 @@ void MakeCoverStripes(int i)
 {
   double dx[12] = {0};
   double dy[12] = {0};
-  int curve[12] = {0,1,0,0,1,0,0,1,0,0,1,0};
+  int curve[12] = {0,0,1,0,0,1,0,0,1,0,0,1};
 
   dx[0]=      dx_coverTop;                // oo
   dy[1]=     -(dy_coverShort);            // oi
