@@ -72,12 +72,13 @@
 //#define DIAMETER_OF_CYLINDER (60.190*25.4)  // OUTER FIELD CAGE...WARNING TOO BIG!!!!
 #define CIRCUMFERENCE (DIAMETER_OF_CYLINDER*3.1415926)
 
-#define BOARD_TOP_Y (CIRCUMFERENCE + dy_space)
-#define BOARD_BOT_Y 0
+//#define BOARD_TOP_Y (CIRCUMFERENCE + dy_space)                for regular board, not cover
+#define BOARD_TOP_Y 0
+#define BOARD_BOT_Y -170
 
 #define dy_excess (BOARD_TOP_Y - 2.0*dx_gap - dy_space - 2.0*dy_gap - 2.0*dy_footprint - 2.0*dy_inside - dy_sep - dy_delta)
 
-#define x0_brd (BOARD_LEFT_X + dx_gap)
+#define x0_brd dx_gap
 #define y0_brd (BOARD_TOP_Y - dx_gap)
 
 
@@ -87,10 +88,10 @@
 -
  */
 
-#define dx_coverTop 1.15 //wrong value
+#define dx_coverTop 1.15 //wrong value...... maybe
 #define dx_coverShortWidth 0.575
-#define dy_coverShort 10 //get value from Hemmick
-#define dy_coverLong 30
+#define dy_coverShort 25.4
+#define dy_coverLong 127 //88.9 for shorter version
 
 
 #endif /*__TPCSPECS_H__*/
