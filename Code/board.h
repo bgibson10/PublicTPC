@@ -6,7 +6,7 @@ void InsertFile(const char *);
 //void MakeElements();
 //void MakeSignals();
 
-void MakePlain();
+//void MakePlain();
 //void MakePre();
 //void MakePrePads();
 //void MakeVCC();
